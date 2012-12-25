@@ -1,0 +1,36 @@
+{
+    "appenders":[
+        {
+            "type":"console",
+            "filename":"logs/console.log",
+            "pattern": "-yyyy-MM-dd"
+        },
+        {
+            "type":"dateFile",
+            "filename":"logs/server.log",
+            "pattern": "-yyyy-MM-dd",
+            "category": "server"
+        },
+        {
+            "type": "smtp",
+            "recipients": "zju2618@163.com",
+            "sender": "zju2618@163.com",
+            "sendInterval": 3600,
+            "transport": "SMTP",
+            "SMTP": {
+                "host": "smtp.163.com",
+                "secureConnection": true,
+                "port": 465,
+                "auth": {
+                    "user": "zju2618@163.com",
+                    "pass": ""
+                }
+            },
+            "category": "server"
+        }
+    ],
+
+    "levels":
+    {
+    }
+}
