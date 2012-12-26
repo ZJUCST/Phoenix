@@ -14,8 +14,6 @@ var express = require('express')
 log4js.configure('./conf/log4js.conf.json');
 SLOG = log4js.getLogger('server');
 
-var login = require('./routes/login');
-var reg = require('./routes/reg');
 
 var app = express();
 
@@ -40,8 +38,8 @@ app.configure('development', function(){
 app.get('/', routes.index);
 app.get('/users', user.list);
 
-app.post('/login',login.login);
-app.post('/reg',reg.reg);
+app.post('/login',user.login);
+app.post('/reg',user.reg);
 
 
 app.post('/post/image', image.upload);
