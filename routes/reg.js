@@ -36,6 +36,5 @@ exports.reg = function(req,res){
                 }
             })
         }
-
     })
 };
