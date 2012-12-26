@@ -4,9 +4,6 @@
 var user = require('dal').User;
 var crypto = require('crypto');
 
-exports.list = function (req, res) {
-};
-
 exports.login = function (req, res) {
     console.log("entry login.js ");
     var errString = "";
