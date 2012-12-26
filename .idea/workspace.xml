@@ -1,276 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="configure log4js and add image bll code and complete image upload apis">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/test/image3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/fonts/mplus-1m-bold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/fonts/mplus-1m-bold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/fonts/mplus-1m-bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/fonts/mplus-1m-regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/fonts/mplus-1m-regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/fonts/mplus-1m-regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/examples/nyan.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/build/report/style.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/test-rolling-file-stream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/streams/test-rolling-file-stream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/addressparser/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/node_modules/wordwrap/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/xoauth2/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/benchmark/20000.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/streams/BaseRollingFileStream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/streams/BufferedWriteStream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/streams/DateRollingFileStream-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/streams/DateRollingFileStream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mime/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/symbols/RAIServer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/symbols/RAISocket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/symbols/src/RAI_index.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/symbols/src/RAI_lib_mockup.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/symbols/src/RAI_lib_rai.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/symbols/src/RAI_lib_starttls.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/node_modules/wordwrap/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mime/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/addressparser/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/xoauth2/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/streams/RollingFileStream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/test/_.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/symbols/_global_.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/javascript/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/test/_/argv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/lib/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/dist/async.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/test/_/bin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/bool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/boolean_double.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/boolean_single.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/node_modules/wordwrap/test/break.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/streams/bufferedStream-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/node_modules/wordwrap/example/center.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/cert/cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/lib/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/test/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/configuration-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/configureNoLevels-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/connect-logger-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/connect-logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/appenders/console.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/lib/content-types-reversed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/lib/content-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/test/cyrillic-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/appenders/dateFile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/dateFileAppender-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/date_format-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/date_format.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/default_hash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/default_singles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/divide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/lib/dkim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/test/dkim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/example-connect-logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/example-socket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/examples/example_autoembedding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/examples/example_dkim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/examples/example_sendmail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/examples/example_ses.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/examples/example_smtp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/examples/example_xoauth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/examples/example_xoauth2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/appenders/file.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/fileAppender-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/files.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/fromreadme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/test/gbk-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/encodings/gbk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/encodings/table/gbk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/test/gbkFile.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/appenders/gelf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/gelfAppender-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/generation/generate-singlebyte.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/global-log-level-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/test/greek-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/handheld.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/appenders/hookio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/hookioAppender-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/javascript/html5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/node_modules/wordwrap/test/idleness.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/streams/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/addressparser/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/node_modules/wordwrap/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/xoauth2/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/cert/key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/layouts-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/layouts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/levels-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/levels.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/line_count.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/line_count_options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/line_count_wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/log-abspath-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/log-rolling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/log4js.conf.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/log4js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/log4js.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/log4js.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/logLevelFilter-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/appenders/logLevelFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/logging-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/lib/mailcomposer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/test/mailcomposer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/test/main-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/node_modules/wordwrap/example/meat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/memory-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mime/mime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mime/types/mime.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/lib/mimelib.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/test/mimelib.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/symbols/mockup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/lib/mockup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/fonts/mplus-1m-bold-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/fonts/mplus-1m-regular-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/multiprocess-stress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/multiprocess-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/appenders/multiprocess.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mime/types/node.types" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/nodelint.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/test/nodemailer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/bin/nodemailer" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/deps/nodeunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/deps/nodeunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/nolog-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/nonopt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mime/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/addressparser/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/node_modules/wordwrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/xoauth2/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/test/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/perf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/test/performance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/lib/pool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/test/pool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/lib/punycode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/lib/rai.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/test/rai.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/reflect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/streams/rollingFileStream-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/benchmark/run.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/run_tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/css/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/engines/sendmail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/lib/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/test/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/server.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/engines/ses.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/setLevel-asymmetry-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/short.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/encodings/singlebyte.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/lib/appenders/smtp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/engines/smtp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/examples/smtp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/smtpAppender-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/jsdoc/symbols/starttls.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/lib/starttls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/node_modules/rai/lib/starttls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/engines/stub.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/test/test-async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/test-rolling-file-stream-write-less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/streams/test-rolling-file-stream-write-less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/test-rolling-file-stream-write-more.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/streams/test-rolling-file-stream-write-more.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/test-rolling-file-stream-write-more" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/streams/test-rolling-file-stream-write-more" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/test-rolling-file-stream-write" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/node_modules/async/test/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mime/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/addressparser/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/examples/test_private.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/test/test_private.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/test/test_public.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/simplesmtp/test/testmessage.eml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/test/textfile.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/transport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/node_modules/mimelib/node_modules/encoding/node_modules/iconv-lite/test/turkish-test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/mailcomposer/lib/urlfetch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/usage-options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/test/usage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/wellknown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/with-dateFile.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/with-log-rolling.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/log4js/test/with-logLevelFilter.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/node_modules/wordwrap/test/wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/x.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/xoauth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nodemailer/node_modules/optimist/example/xup.js" />
+    <list default="true" id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/util/upyunWS.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/footer.ejs" afterPath="$PROJECT_DIR$/views/footer.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.ejs" afterPath="$PROJECT_DIR$/views/header.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/image.js" afterPath="$PROJECT_DIR$/routes/image.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bll/imageBLL.js" afterPath="$PROJECT_DIR$/node_modules/bll/imageBLL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/reg.js" afterPath="$PROJECT_DIR$/routes/reg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dal/imageDAL.js" afterPath="$PROJECT_DIR$/node_modules/dal/imageDAL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dal/mongo.js" afterPath="$PROJECT_DIR$/node_modules/dal/mongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/server.log" afterPath="$PROJECT_DIR$/logs/server.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="96fb85f9-5b4b-4962-bf63-92233ff27917" name="local" comment="" />
     <ignored path="Phoenix.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356513313750" ignored="false" />
+    <file path="/Dummy.txt" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356525158718" ignored="false" />
     <file path="/reg.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356513574046" ignored="false" />
+    <file path="/index.html" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356524074580" ignored="false" />
+    <file path="/commonFun.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356521832054" ignored="false" />
+    <file path="/fragment.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356522571352" ignored="false" />
+    <file path="$PROJECT_DIR$/node_modules/log4js/package.json" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356523006456" ignored="false" />
+    <file path="/app.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356524403000" ignored="false" />
+    <file path="/index.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356525388367" ignored="false" />
+    <file path="/page.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356525292638" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,6 +42,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -329,91 +87,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="23" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reg.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/reg.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="33" selection-start="643" selection-end="643" vertical-scroll-proportion="0.39583334">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4js.conf.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/log4js.conf.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="29" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imageBLL.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/bll/imageBLL.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="19" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+            <state line="40" column="30" selection-start="975" selection-end="1001" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imageDAL.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/dal/imageDAL.js">
+      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
+            <state line="1" column="14" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/dal/index.js">
+      <file leaf-file-name="header.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+            <state line="95" column="42" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mongo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/dal/mongo.js">
+      <file leaf-file-name="footer.ejs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userDAL.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/dal/userDAL.js">
+      <file leaf-file-name="page.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+            <state line="6" column="26" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -437,30 +159,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/node_modules/dal/userDAL.js" />
-        <option value="$PROJECT_DIR$/node_modules/util/upyunWS.js" />
-        <option value="$PROJECT_DIR$/node_modules/dal/collectionDAL.js" />
-        <option value="$PROJECT_DIR$/node_modules/dal/index.js" />
-        <option value="$PROJECT_DIR$/node_modules/dal/imageDAL.js" />
-        <option value="$PROJECT_DIR$/manifest.yml" />
-        <option value="$PROJECT_DIR$/node_modules/util/upyunws.js" />
-        <option value="$PROJECT_DIR$/node_modules/bll.js" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/routes/image.js" />
         <option value="$PROJECT_DIR$/node_modules/bll/imageBLL.js" />
         <option value="$PROJECT_DIR$/conf/log4js.conf.json" />
         <option value="$PROJECT_DIR$/conf/upyunWS.conf.json" />
         <option value="$PROJECT_DIR$/logs/server.log" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/reg.js" />
+        <option value="$PROJECT_DIR$/public/js/commonFun.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/header.html" />
+        <option value="$PROJECT_DIR$/public/footer.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/page.js" />
+        <option value="$PROJECT_DIR$/views/header.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/footer.ejs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1288" />
-    <option name="height" value="778" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -490,10 +212,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -550,17 +272,33 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\githubwww\Phoenix\public\js" />
+      <recent name="D:\githubwww\Phoenix\public" />
+      <recent name="D:\githubwww\Phoenix\public\css" />
+      <recent name="D:\githubwww\Phoenix\public\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\githubwww\Phoenix\views" />
+      <recent name="D:\githubwww\Phoenix\public" />
+      <recent name="D:\githubwww\Phoenix" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
@@ -584,6 +322,9 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -625,9 +366,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -673,10 +411,25 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
+    <configuration default="false" name="index.html" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="chrome" />
+        <option name="fileUrl" value="file://$PROJECT_DIR$/public/index.html" />
+      </JSDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.test.js" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -704,6 +457,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="" />
+      <changelist id="96fb85f9-5b4b-4962-bf63-92233ff27917" name="local" comment="" />
       <created>1355743617798</created>
       <updated>1355743617798</updated>
     </task>
@@ -739,7 +493,11 @@
       <created>1356076052718</created>
       <updated>1356076052718</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add front-end related components">
+      <created>1356525186026</created>
+      <updated>1356525186026</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -763,32 +521,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="778" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771823" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.672" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2471637" sideWeight="0.67154473" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -834,7 +592,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="configure log4js and add image bll code and complete image upload apis" />
+    <option name="LAST_COMMIT_MESSAGE" value="add front-end related components" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -853,6 +611,7 @@
     <MESSAGE value="Change DAL interface (check it in dal/index.js) and add imageDAL base code" />
     <MESSAGE value="add bll level and modify upyunws interface" />
     <MESSAGE value="configure log4js and add image bll code and complete image upload apis" />
+    <MESSAGE value="add front-end related components" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -889,113 +648,117 @@
     </GetOptions>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/util/upyunws.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/dal/mongo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="570" selection-end="570" vertical-scroll-proportion="-0.655527" />
+        <state line="18" column="36" selection-start="458" selection-end="458" vertical-scroll-proportion="0.03220339" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/dal/userDAL.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="15" column="27" selection-start="358" selection-end="358" vertical-scroll-proportion="0.48305085" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/log4js/lib/log4js.js">
+    <entry file="file://$PROJECT_DIR$/public/js/jquery-1.8.3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.1076672" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/server.log">
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap-responsive.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="8" column="6" selection-start="246" selection-end="246" vertical-scroll-proportion="0.40533334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/upyunWS.conf.json">
+    <entry file="file://$PROJECT_DIR$/public/js/caiji.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+        <state line="5" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.16101696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/caijitest.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/commonFun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="243" selection-end="254" vertical-scroll-proportion="0.2585034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/picUpload.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.5167598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/node_modules/send/lib/send.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/image.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+        <state line="14" column="20" selection-start="411" selection-end="411" vertical-scroll-proportion="0.60932946">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/log4js.conf.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/dal/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/dal/mongo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/dal/userDAL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/dal/imageDAL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bll/imageBLL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="19" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+        <state line="40" column="30" selection-start="975" selection-end="1001" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
+    <entry file="file://$PROJECT_DIR$/routes/page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="23" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0">
+        <state line="6" column="26" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/reg.js">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="643" selection-end="643" vertical-scroll-proportion="0.39583334">
+        <state line="1" column="14" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="42" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
