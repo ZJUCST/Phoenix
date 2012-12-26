@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+
+<% include "header.ejs" %>
+<div class="row">
+	<div class="index_category"><img src="../public/img/category.gif" class="index_category_img" /></div>
+	
+</div>
+<div id="main">
+<div class="row index_order">
+      <div class="fl"><a href="#" class="index_latest">最新</a></div>
+      <div class="fl"><a href="#" class="index_hottest">人气</a></div>
+	  <div class="cl"></div>
+</div>
+</div>
+<% include "footer.ejs" %>

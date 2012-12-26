@@ -41,7 +41,7 @@ app.get('/users', user.list);
 app.post('/login',user.login);
 app.post('/reg',user.reg);
 
-
+app.get('/index', function(req, res) {res.render('index');});
 app.post('/post/image', image.upload);
 app.post('/collect/image', image.collect);
 
