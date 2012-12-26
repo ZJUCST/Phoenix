@@ -2,32 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/util/upyunWS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/picUpload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/ajaxfileupload.css" afterPath="$PROJECT_DIR$/public/css/ajaxfileupload.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/footer.ejs" afterPath="$PROJECT_DIR$/views/footer.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.ejs" afterPath="$PROJECT_DIR$/views/header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/image.js" afterPath="$PROJECT_DIR$/routes/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bll/imageBLL.js" afterPath="$PROJECT_DIR$/node_modules/bll/imageBLL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dal/imageDAL.js" afterPath="$PROJECT_DIR$/node_modules/dal/imageDAL.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dal/mongo.js" afterPath="$PROJECT_DIR$/node_modules/dal/mongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/page.js" afterPath="$PROJECT_DIR$/routes/page.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/server.log" afterPath="$PROJECT_DIR$/logs/server.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="96fb85f9-5b4b-4962-bf63-92233ff27917" name="local" comment="" />
     <ignored path="Phoenix.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356525158718" ignored="false" />
+    <file path="/Dummy.txt" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356527163679" ignored="false" />
     <file path="/reg.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356513574046" ignored="false" />
     <file path="/index.html" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356524074580" ignored="false" />
     <file path="/commonFun.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356521832054" ignored="false" />
     <file path="/fragment.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356522571352" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/log4js/package.json" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356523006456" ignored="false" />
-    <file path="/app.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356524403000" ignored="false" />
+    <file path="/app.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356527838618" ignored="false" />
     <file path="/index.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356525388367" ignored="false" />
-    <file path="/page.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356525292638" ignored="false" />
+    <file path="/page.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356527860835" ignored="false" />
+    <file path="/picUpload.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356530201998" ignored="false" />
+    <file path="/ajaxfileupload.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356529210667" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,34 +86,25 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="30" selection-start="975" selection-end="1001" vertical-scroll-proportion="0.0">
+            <state line="37" column="19" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <file leaf-file-name="picUpload.ejs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/picUpload.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+            <state line="8" column="30" selection-start="384" selection-end="384" vertical-scroll-proportion="0.39378238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/header.ejs">
+      <file leaf-file-name="ajaxfileupload.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/ajaxfileupload.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="42" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.ejs" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/footer.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="382" selection-end="545" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,16 +113,16 @@
       <file leaf-file-name="page.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+            <state line="13" column="25" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="365" selection-end="385" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,9 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/routes/image.js" />
-        <option value="$PROJECT_DIR$/node_modules/bll/imageBLL.js" />
         <option value="$PROJECT_DIR$/conf/log4js.conf.json" />
         <option value="$PROJECT_DIR$/conf/upyunWS.conf.json" />
         <option value="$PROJECT_DIR$/logs/server.log" />
@@ -170,11 +154,14 @@
         <option value="$PROJECT_DIR$/public/stylesheets/header.html" />
         <option value="$PROJECT_DIR$/public/footer.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/page.js" />
         <option value="$PROJECT_DIR$/views/header.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/footer.ejs" />
+        <option value="$PROJECT_DIR$/public/js/picUpload.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/page.js" />
+        <option value="$PROJECT_DIR$/public/css/ajaxfileupload.css" />
+        <option value="$PROJECT_DIR$/views/picUpload.ejs" />
       </list>
     </option>
   </component>
@@ -262,6 +249,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phoenix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phoenix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -286,10 +287,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\githubwww\Phoenix\public\img" />
       <recent name="D:\githubwww\Phoenix\public\js" />
       <recent name="D:\githubwww\Phoenix\public" />
       <recent name="D:\githubwww\Phoenix\public\css" />
-      <recent name="D:\githubwww\Phoenix\public\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\githubwww\Phoenix\views" />
@@ -497,7 +498,11 @@
       <created>1356525186026</created>
       <updated>1356525186026</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="11&#10;">
+      <created>1356527177744</created>
+      <updated>1356527177744</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -592,7 +597,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add front-end related components" />
+    <option name="LAST_COMMIT_MESSAGE" value="11&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -612,6 +617,7 @@
     <MESSAGE value="add bll level and modify upyunws interface" />
     <MESSAGE value="configure log4js and add image bll code and complete image upload apis" />
     <MESSAGE value="add front-end related components" />
+    <MESSAGE value="11&#10;" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -657,23 +663,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/dal/mongo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="458" selection-end="458" vertical-scroll-proportion="0.03220339" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/dal/userDAL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="358" selection-end="358" vertical-scroll-proportion="0.48305085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jquery-1.8.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/bootstrap-responsive.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="6" selection-start="246" selection-end="246" vertical-scroll-proportion="0.40533334" />
@@ -700,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/picUpload.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.5167598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/node_modules/send/lib/send.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="0" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0">
@@ -721,6 +703,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="26" selection-start="16" selection-end="16" vertical-scroll-proportion="0.06462585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="42" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.4506803">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/picUpload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -728,37 +731,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="975" selection-end="1001" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="365" selection-end="385" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+        <state line="13" column="25" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/public/css/ajaxfileupload.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="382" selection-end="545" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.ejs">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="42" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.0">
+        <state line="37" column="19" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/footer.ejs">
+    <entry file="file://$PROJECT_DIR$/public/img/picUpload.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/picUpload.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="30" selection-start="384" selection-end="384" vertical-scroll-proportion="0.39378238">
           <folding />
         </state>
       </provider>
