@@ -6,6 +6,7 @@
 var express = require('express')
   , routes = require('./routes/index')
   , user = require('./routes/user')
+  , page = require('./routes/page')
   , image = require('./routes/image')
   , http = require('http')
   , path = require('path')
@@ -35,13 +36,17 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-app.get('/', routes.index);
-app.get('/users', user.list);
+/**
+ * Add page render route here
+ */
+app.get('/', page.index);
 
+
+/**
+ * Add apis route here
+ */
 app.post('/login',user.login);
 app.post('/reg',user.reg);
-
-
 app.post('/post/image', image.upload);
 app.post('/collect/image', image.collect);
 
