@@ -18,6 +18,7 @@ exports.upload = function(req, res) {
 }
 
 exports.collect = function(req, res) {
+    req.session.user = {id: 1, name: "test"};
     SLOG.trace("Receive upload request from: ", req.headers['user-agent']);
     if(req.session.user && req.body.uri) {
         imagebll.collect(req, res);
