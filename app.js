@@ -6,8 +6,13 @@
 var express = require('express')
   , routes = require('./routes/index')
   , user = require('./routes/user')
+  , image = require('./routes/image')
   , http = require('http')
-  , path = require('path');
+  , path = require('path')
+  , log4js = require('log4js');
+
+log4js.configure('./conf/log4js.conf.json');
+SLOG = log4js.getLogger('server');
 
 var login = require('./routes/login');
 var reg = require('./routes/reg');
@@ -34,10 +39,15 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 app.get('/users', user.list);
+
 app.post('/login',login.login);
 app.post('/reg',reg.reg);
 
 
+app.post('/post/image', image.upload);
+app.post('/collect/image', image.collect);
+
+
 http.createServer(app).listen(app.get('port'), function(){
-  console.log("Express server listening on port " + app.get('port'));
+  SLOG.info("Express server listening on port " + app.get('port'));
 });
