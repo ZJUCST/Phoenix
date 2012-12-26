@@ -13,13 +13,9 @@ exports.login=function(req,res){
     var errString="";
 
     var crypto = require('crypto');
-    //var salt = crypto.randomBytes(128).toString('base64');
-    //var password;
-    //crypto.pbkdf2( req.body.password, salt, 10000, 512, function(err, dk) { password = dk; } );
-
     var log={
         name:req.body.username,
-        password:password
+        password:req.body.password
     };
 
     if(log.name==""&&log.password=="")
@@ -31,7 +27,7 @@ exports.login=function(req,res){
         user.find({name:log.name},{},function(err,docs){
             if(err)
             {
-                console.log("something is wrong !!!");
+                console.log("server err");
             }
             else
             {
@@ -50,18 +46,21 @@ exports.login=function(req,res){
                         {
                             var upassword ;
                             var salt = items[0].salt;
-                            crypto.pbkdf2( req.body.password, salt, 10000, 512, function(err, dk) { upassword = dk; } );
-                            if(items[0].password == upassword) //代表密码正确
-                            {
-                                res.session.add(log);
-                                console.log("log suc");
-                            }
-                            else  //代表密码不正确
-                            {
-                                errString="the password is wrong";
-                                res.send(errString);
-                                console.log("the password is Wrong");
-                            }
+                            crypto.pbkdf2( req.body.password, salt, 10000, 512, function(err, dk) {
+                                upassword = dk;
+                                if(items[0].password == upassword) //代表密码正确
+                                {
+                                    //res.session.add(log);
+                                    console.log("log suc");
+                                }
+                                else  //代表密码不正确
+                                {
+                                    errString="the password is wrong";
+                                    res.send(errString);
+                                    console.log("the password is Wrong");
+                                }
+                            } );
+
                             //res.session.add(log);
                         }
                     }
@@ -76,35 +75,38 @@ exports.reg = function(req,res){
     var errString="";
 
     var salt = crypto.randomBytes(128).toString('base64');
-    var password;
-    crypto.pbkdf2( req.body.password, salt, 10000, 512, function(err, dk) { password = dk; } );
+    var pwd;
+    crypto.pbkdf2( req.body.password, salt, 10000, 512, function(err, dk) {
+        pwd = dk;
+        console.log(pwd)
+        var reg={
+            name:req.body.username,
+            password:pwd,
+            email:req.body.email,
+            salt:salt
+        };
+        user.find({name:reg.name},{name:1},function(err,docs){
+            if(err)
+                console.log("something is wrong !");
+            else
+            {
+                docs.toArray(function(err,items){
+                    if(items.length == 0)
+                    {
+                        console.log("OK");
+                        user.insert(reg,function(err,docs){})
+                        //res.session.add(reg);
+                    }
+                    else
+                    {
+                        console.log("this user is already exists!");
+                        errString="server err";
+                        //res.writeHead(200, {"Content-Type": "text/plain"});
+                        res.send(errString);
+                    }
+                })
+            }
+        })
 
-    var reg={
-        name:req.body.username,
-        password:password,
-        email:req.body.email,
-        salt:salt
-    };
-    user.find({name:reg.name},function(err,docs){
-        if(err)
-            console.log("something is wrong !");
-        else
-        {
-            docs.toArray(function(err,items){
-                if(items.length == 0)
-                {
-                    console.log("OK");
-                    user.insert(reg,function(err,docs){})
-                    res.session.add(reg);
-                }
-                else
-                {
-                    console.log("this user is already exists!");
-                    errString="server err";
-                    res.writeHead(200, {"Content-Type": "text/plain"});
-                    res.send(errString);
-                }
-            })
-        }
-    })
+    } );
 };
