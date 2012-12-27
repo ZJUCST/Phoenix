@@ -5,10 +5,12 @@
 <% stylesheet('css/ajaxfileupload.css') -%>
 	<img id="loading" src="img/loading.gif" style="display:none;">
 	<form action="www.baidu.com" method="post" enctype="multipart/form-data">
-		标签：<input id="tags" name="tags" />
-		描述：<input id="descriptiondescribe" name="description" />
-       <div class="btn btn-primary upload"> 选择图片上传<input id="image_upload" name="image_upload"  multiple="true" type="file" class="upload_file" />  </div>
-
-
+		标签：<input id="tags" name="tags" />        <br />
+		描述：<input id="description" name="description" />
+         <div class="upload1">
+         	<input type="text" class="ipt_text" id="file_text" />
+         	<input type="button" class="btn" value="浏 览" />
+         	<input type="file" id="image_upload" name="image_upload"  multiple="true"  class="upload_file1" size="26" onchange="document.getElementById('file_text').value=this.value" />
+         </div>
 		<button class="btn" id="buttonUpload" onclick="return ajaxFileUpload();">提交</button>
 	</form>
