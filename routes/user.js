@@ -1,96 +1,108 @@
-/*
- * GET users listing.
- */
-var user = require('dal').User;
-var crypto = require('crypto');
+
+var userDAL = require('dal').User,
+    crypto = require('crypto'),
+    errorDef = require('./../conf/errorCode.def.json');
 
 exports.login = function (req, res) {
-    console.log("entry login.js ");
-    var errString = "";
+    SLOG.trace("Receive login request from: ", req.headers['user-agent']);
 
-    var log = {
+    var loginInfo = {
         name:req.body.username,
         password:req.body.password
     };
 
-    if (log.name == "" && log.password == "") {
-        console.log("nothing is filled ");
-    }
-    else if (log.name != "" && log.password != "") {
-        user.find({name:log.name}, {}, function (err, docs) {
+    if (!loginInfo.name) {
+        SLOG.info("Login attempt failed: username cannot be empty.");
+        res.send(errorDef[100001], 401);
+    } else if (!loginInfo.password) {
+        SLOG.info("Login attempt failed: password cannot be empty.");
+        res.send(errorDef[100002], 401);
+    } else {
+        userDAL.findOne({name:loginInfo.name}, function (err, dbuser) {
             if (err) {
-                SLOG.error("server err");
-            }
-            else {
-                docs.toArray(function (err, items) {
-                    if (err)
-                        console.log("docs is error");
-                    else {
-                        if (items.length == 0) {
-                            errString = "The name dones't exist!!";
-                            res.send(errString, 401);
-
-                        }
-                        else if (items.length == 1) {
-                            var upassword;
-                            var salt = items[0].salt;
-                            crypto.pbkdf2(req.body.password, salt, 10000, 512, function (err, dk) {
-                                upassword = dk;
-                                if (items[0].password == upassword) {
-                                    //res.session.add(log);
-                                    console.log("log suc");
-                                }
-                                else {
-                                    errString = "the password is wrong";
-                                    res.send(errString, 401);
-                                    console.log("the password is Wrong");
-                                }
-                            });
-
-                            //res.session.add(log);
-                        }
+                SLOG.error(err);
+            } else if(!dbuser) {
+                SLOG.info("Login attempt failed: username not found.");
+                res.send(errorDef[100003], 401);
+            } else {
+                hasher(loginInfo.password, dbuser.salt, function(err, dk) {
+                    if(dbuser.password == dk) {
+                        req.session.user = dbuser;
+                        res.send();
+                    } else {
+                        SLOG.info("Login attempt failed: wrong password.");
+                        res.send(errorDef[100004], 401);
                     }
-                })
+                });
             }
-        })
+        });
     }
 };
 
 exports.reg = function (req, res) {
-    console.log("entry reg point !!!!!!!");
-    var errString = "";
+    SLOG.trace("Receive register request from: ", req.headers['user-agent']);
 
-    var salt = crypto.randomBytes(128).toString('base64');
-    var pwd;
-    crypto.pbkdf2(req.body.password, salt, 10000, 512, function (err, dk) {
-        pwd = dk;
-        console.log(pwd)
-        var reg = {
-            name:req.body.username,
-            password:pwd,
-            email:req.body.email,
-            salt:salt
-        };
-        user.find({name:reg.name}, {name:1}, function (err, docs) {
-            if (err)
-                console.log("something is wrong !");
-            else {
-                docs.toArray(function (err, items) {
-                    if (items.length == 0) {
-                        console.log("OK");
-                        user.insert(reg, function (err, docs) {
-                        })
-                        //res.session.add(reg);
+    if(!req.body.email) {
+        SLOG.info("Register attempt failed: email cannot be empty.");
+        res.send(errorDef[100005], 401);
+    } else if (!req.body.username) {
+        SLOG.info("Register attempt failed: username cannot be empty.");
+        res.send(errorDef[100001], 401);
+    } else if (!req.body.password) {
+        SLOG.info("Register attempt failed: password cannot be empty.");
+        res.send(errorDef[100002], 401);
+    } else {
+        userDAL.findOne({name: req.body.username}, function(err, dbUser) {
+            if(err) {
+                SLOG.error(err);
+                res.send(errorDef[400001], 500);
+            } else if(dbUser) {
+                SLOG.error(err);
+                res.send(errorDef[100006], 401);
+            } else {
+                userDAL.findOne({email: req.body.email}, function(err, dbUser) {
+                    if(err) {
+                        SLOG.error(err);
+                        res.send(errorDef[400001], 500);
+                    } else if(dbUser) {
+                        SLOG.error(err);
+                        res.send(errorDef[100007], 401);
+                    } else {
+                        var salt = crypto.randomBytes(128).toString('base64');
+                        hasher(req.body.password, salt, function(err, dk) {
+                            var newUser = {
+                                name:req.body.username,
+                                password:dk,
+                                email:req.body.email,
+                                salt:salt,
+                                createTime:new Date()
+                            };
+                            userDAL.insert(newUser, {safe: true}, function(err, docs) {
+                                if(err) {
+                                    SLOG.error(err);
+                                    res.send(errorDef[400001], 500);
+                                } else {
+                                    SLOG.trace("Register successful: ", docs[0].name);
+                                    delete docs[0].password;
+                                    delete docs[0].salt;
+                                    req.session.user = docs[0];
+                                    res.send();
+                                }
+                            });
+                        });
                     }
-                    else {
-                        console.log("this user is already exists!");
-                        errString = "server err";
-                        //res.writeHead(200, {"Content-Type": "text/plain"});
-                        res.send(errString);
-                    }
-                })
+                });
             }
-        })
-
-    });
+        });
+    }
 };
+
+/**
+ * pbkdf2 password hasher
+ * @param pwd - plain text of password
+ * @param salt - salt used in pbkdf2
+ * @param fn - callback function
+ */
+function hasher(pwd, salt, fn) {
+    crypto.pbkdf2(pwd, salt, 1000, 512, fn);
+}

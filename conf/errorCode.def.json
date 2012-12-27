@@ -1,0 +1,34 @@
+{
+    "100001": {
+        "errorCode": 100001,
+        "message": "Username cannot be empty."
+    },
+    "100002": {
+        "errorCode": 100002,
+        "message": "Password cannot be empty."
+    },
+    "100003": {
+        "errorCode": 100003,
+        "message": "User is not found."
+    },
+    "100004": {
+        "errorCode": 100004,
+        "message": "Wrong password."
+    },
+    "100005": {
+        "errorCode": 100005,
+        "message": "email cannot be empty."
+    },
+    "100006": {
+        "errorCode": 100006,
+        "message": "user name already existed."
+    },
+    "100007": {
+        "errorCode": 100007,
+        "message": "email already existed."
+    },
+    "400001": {
+        "errorCode": 400001,
+        "message": "register error, try again latter."
+    }
+}
