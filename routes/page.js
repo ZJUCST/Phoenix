@@ -10,6 +10,3 @@
 exports.index = function(req, res) {
     res.render('index', { title: 'Hello World' });
 }
-exports.loginAndregister= function(req, res) {
-    res.render('loginAndregister', { title: 'loginAndregister' });
-}

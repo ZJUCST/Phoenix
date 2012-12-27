@@ -1,70 +1,16 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Upload</title>
-<link href="../public/css/ajaxfileupload.css" type="text/css" rel="stylesheet">
-<script src="../public/js/jquery-1.8.3.js" type="text/javascript"></script>
-<script type="text/javascript" src="../public/js/ajaxfileupload.js"></script>
-<script type="text/javascript" src="../public/js/commonFun.js"></script>
-	<script type="text/javascript">
-	function ajaxFileUpload()
-	{
-		$("#loading")
-		.ajaxStart(function(){
-			$(this).show();
-		})
-		.ajaxComplete(function(){
-			$(this).hide();
-		});
-
-		$.ajaxFileUpload
-		(
-			{
-				url:'/post/image',
-				secureuri:false,
-				fileElementId:'image_upload',
-				dataType: 'json',
-				data:{tags:$('#tags').val(), description:$('#description').val(),uri:getFileName($('#image_upload').val())},
-				success: function (data, status)
-				{
-					if(typeof(data.error) != 'undefined')
-					{
-						if(data.error != '')
-						{
-							alert(data.error);
-						}else
-						{
-							alert(data.msg);
-						}
-					}
-				},
-				error: function (data, status, e)
-				{
-					alert(e);
-				}
-			}
-		)
-		
-		return false;
-
-	}
-	</script>	
-</head>
-
-<body>
-	<!--include header.html-->
-
-	<img id="loading" src="../public/img/loading.gif" style="display:none;">
+<% layout('layout') %>
+<% script('js/ajaxfileupload.js') -%>
+<% script('js/commonFun.js') -%>
+<% script('js/picUpload.js') -%>
+<% stylesheet('css/ajaxfileupload.css') -%>
+	<img id="loading" src="img/loading.gif" style="display:none;">
 	<form action="www.baidu.com" method="post" enctype="multipart/form-data">
-		标签：<input id="tags" name="tags" />
-		描述：<input id="descriptiondescribe" name="description" />
-		
-		<input id="image_upload" name="image_upload"  type="file" multiple="true">
-		<button class="button" id="buttonUpload" onclick="return ajaxFileUpload();">Upload</button
+		标签：<input id="tags" name="tags" />        <br />
+		描述：<input id="description" name="description" />
+         <div class="upload1">
+         	<input type="text" class="ipt_text" id="file_text" />
+         	<input type="button" class="btn" value="浏 览" />
+         	<input type="file" id="image_upload" name="image_upload"  multiple="true"  class="upload_file1" size="26" onchange="document.getElementById('file_text').value=this.value" />
+         </div>
+		<button class="btn" id="buttonUpload" onclick="return ajaxFileUpload();">提交</button>
 	</form>
-
-	
-	
-</body>
-</html>
