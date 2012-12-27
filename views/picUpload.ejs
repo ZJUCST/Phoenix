@@ -7,7 +7,8 @@
 	<form action="www.baidu.com" method="post" enctype="multipart/form-data">
 		标签：<input id="tags" name="tags" />
 		描述：<input id="descriptiondescribe" name="description" />
-		
-		<input id="image_upload" name="image_upload"  type="file" multiple="true">
-		<button class="button" id="buttonUpload" onclick="return ajaxFileUpload();">Upload</button
+       <div class="btn btn-primary upload"> 选择图片上传<input id="image_upload" name="image_upload"  multiple="true" type="file" class="upload_file" />  </div>
+
+
+		<button class="btn" id="buttonUpload" onclick="return ajaxFileUpload();">Upload</button>
 	</form>

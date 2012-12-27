@@ -1,19 +1,19 @@
 .topnav{
     height:39px;
-    background-image:url("img/headerbg2.gif");
+    background-image:url("../img/headerbg2.gif");
 
 }
 .logo{
     width:131px;
     height:37px;
-    background-image:url("img/index_bg.png");
+    background-image:url("../img/index_bg.png");
     background-position:0 -144px;
 }
 .index_xiala{
     display:block;
     width:40px;
     height:37px;
-    background-image:url("img/index_bg.png");
+    background-image:url("../img/index_bg.png");
     background-position:0 -41px;
 }
 .index_login{
@@ -21,14 +21,14 @@
     display:block;
     width:55px;
     height:37px;
-    background-image:url("img/index_bg.png");
+    background-image:url("../img/index_bg.png");
     background-position:0 -93px;
 }
 .index_register{
     display:block;
     width:57px;
     height:37px;
-    background-image:url("img/index_bg.png");
+    background-image:url("../img/index_bg.png");
     background-position:-59px -93px;
 }
 .index_category_img{
@@ -37,14 +37,14 @@
 }
 .index_category{
     height:175px;
-    background-image:url("img/categorybg.gif");
+    background-image:url("../img/categorybg.gif");
     background-repeat:repeat-x;
 }
 .index_latest{
     display:block;
     width:38px;
     height:28px;
-    background-image:url("img/index_bg.png");
+    background-image:url("../img/index_bg.png");
     background-position:0 0;
     padding:5px 0 0 25px;
 }
@@ -53,13 +53,13 @@
     display:block;
     width:38px;
     height:28px;
-    background-image:url("img/index_bg.png");
+    background-image:url("../img/index_bg.png");
     background-position:0 0;
     padding:5px 0 0 25px;
 }
 
 #main{
-    background-image:url("img/index_main_bg.gif");
+    background-image:url("../img/index_main_bg.gif");
 
     border-top:1px solid #f5f4f2;
 }
