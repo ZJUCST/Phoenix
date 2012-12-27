@@ -1,0 +1,78 @@
+.topnav{
+    height:39px;
+    background-image:url("img/headerbg2.gif");
+
+}
+.logo{
+    width:131px;
+    height:37px;
+    background-image:url("img/index_bg.png");
+    background-position:0 -144px;
+}
+.index_xiala{
+    display:block;
+    width:40px;
+    height:37px;
+    background-image:url("img/index_bg.png");
+    background-position:0 -41px;
+}
+.index_login{
+
+    display:block;
+    width:55px;
+    height:37px;
+    background-image:url("img/index_bg.png");
+    background-position:0 -93px;
+}
+.index_register{
+    display:block;
+    width:57px;
+    height:37px;
+    background-image:url("img/index_bg.png");
+    background-position:-59px -93px;
+}
+.index_category_img{
+    width:1172px;height:175px;
+    margin:0 0 0 80px
+}
+.index_category{
+    height:175px;
+    background-image:url("img/categorybg.gif");
+    background-repeat:repeat-x;
+}
+.index_latest{
+    display:block;
+    width:38px;
+    height:28px;
+    background-image:url("img/index_bg.png");
+    background-position:0 0;
+    padding:5px 0 0 25px;
+}
+
+.index_hottest{
+    display:block;
+    width:38px;
+    height:28px;
+    background-image:url("img/index_bg.png");
+    background-position:0 0;
+    padding:5px 0 0 25px;
+}
+
+#main{
+    background-image:url("img/index_main_bg.gif");
+
+    border-top:1px solid #f5f4f2;
+}
+.index_order{
+
+    margin:20px 0 0 70px;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.cl{
+    clear:both;
+}
