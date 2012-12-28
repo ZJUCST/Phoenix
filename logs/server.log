@@ -1,9 +1,1 @@
 [2012-12-26 20:35:55.611] [INFO] server - Express server listening on port 3000
-[2012-12-26 21:18:04.610] [INFO] server - Express server listening on port 3000
-[2012-12-27 09:04:08.760] [INFO] server - Express server listening on port 3000
-[2012-12-27 09:12:22.890] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
-[2012-12-27 09:15:53.099] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
-[2012-12-27 09:21:55.522] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
-[2012-12-27 09:24:27.308] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
-[2012-12-27 10:30:08.240] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
-[2012-12-27 10:40:23.529] [INFO] server - Express server listening on port 3000
