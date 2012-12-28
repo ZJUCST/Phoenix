@@ -1,6 +1,4 @@
-.upload1{position:relative;width:260px;height:30px;}
-.ipt_text{width:174px;height:24px;line-height:24px;padding:2px;border:1px solid #aaa;margin: 10px 0 0 0;}
-.btn{width:70px;}
-.upload_file1{position:absolute;left:0;top:0;width:260px;height:30px;line-height:30px;opacity:0;filter:alpha(opacity:0);}
-#buttonUpload{margin: 20px 0 0 0;}
-#description{margin: 10px 0 0 0;}
+.upload{height: 30px;}
+.uploadbg{background-image: url("../img/picUploadButton.png");background-repeat:no-repeat;}
+.upload_file{opacity:0;filter:alpha(opacity=0);}
+

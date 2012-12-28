@@ -42,6 +42,7 @@ app.configure('development', function(){
  * Add page render route here
  */
 app.get('/', page.index);
+app.get('/picUpload', page.picUpload);
 app.get('/loginAndregister', page.loginAndregister);
 
 
