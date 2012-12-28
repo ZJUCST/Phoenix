@@ -8,7 +8,7 @@
 
 
 exports.index = function(req, res) {
-    res.render('index', { title: 'Hello World' });
+    res.render('index', { title: 'Hello World',who:{name:'11',pic:"/img/logo.gif"}});
 }
 exports.picUpload = function(req, res) {
     res.render('picUpload', { title: 'Hello World', who: 'ssss' });
