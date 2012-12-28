@@ -53,6 +53,7 @@ app.post('/login',user.login);
 app.post('/reg',user.reg);
 app.post('/post/image', image.upload);
 app.post('/collect/image', image.collect);
+app.get('/get/image', image.getPage);
 
 
 http.createServer(app).listen(app.get('port'), function(){

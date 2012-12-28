@@ -30,5 +30,13 @@
     "400001": {
         "errorCode": 400001,
         "message": "register error, try again latter."
+    },
+    "400002": {
+        "errorCode": 400002,
+        "message": "internal error when get images."
+    },
+    "400003": {
+        "errorCode": 400003,
+        "message": "Parameter error: pre must be a string of 24 hex characters."
     }
 }
