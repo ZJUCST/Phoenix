@@ -13,3 +13,7 @@ exports.index = function(req, res) {
 exports.picUpload = function(req, res) {
     res.render('picUpload', { title: 'Hello World' });
 }
+
+exports.loginAndregister = function(req, res) {
+    res.render('loginAndregister', { title: 'Hello World' });
+}
