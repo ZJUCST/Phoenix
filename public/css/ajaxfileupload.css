@@ -1,4 +1,5 @@
 .upload{height: 30px;}
-.uploadbg{background-image: url("../img/picUploadButton.png");background-repeat:no-repeat;}
+.uploadbg{background-image: url("../img/picUploadButton.png");background-position:-25px 0;background-repeat:no-repeat;}
 .upload_file{opacity:0;filter:alpha(opacity=0);}
+.detail{display: none;}
 

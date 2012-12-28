@@ -15,17 +15,24 @@
 
 	<img id="loading" src="img/loading.gif" style="display:none;">
 	<form action="www.baidu.com" method="post" enctype="multipart/form-data">
-		标签：<input id="tags" name="tags" class="span4" type="text" placeholder=".input-large">        <br />
-		描述：<textarea rows="3" class="span4"  id="description" name="description"> </textarea> <br />
-         <div class="upload btn span4">
+        <h4>上传采集</h4>
+        <hr />
+        <div class="upload btn span2">
             <div class="uploadbg">
-         	<input type="file" id="image_upload" name="image_upload"  multiple="true"  class="upload_file" />
-         	</div>
-         </div>
-         <br />
-         <br />
-          <br />
-		<button class="btn span2" id="buttonUpload" onclick="return ajaxFileUpload();">提交</button>
+                <input type="file" id="image_upload" name="image_upload"  multiple="true"  class="upload_file" />
+            </div>
+        </div>
+        <div class="detail">
+            <br />
+            <br />
+            <br />
+            标签：<input id="tags" name="tags" class="span4" type="text" placeholder=".input-large">        <br />
+            描述：<textarea rows="3" class="span4"  id="description" name="description"> </textarea> <br />
+
+
+            <button class="btn span2" id="buttonUpload" onclick="return ajaxFileUpload();">提交</button>
+        </div>
+
 	</form>
  </body>
  </html>

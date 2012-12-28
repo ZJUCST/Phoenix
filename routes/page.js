@@ -11,7 +11,7 @@ exports.index = function(req, res) {
     res.render('index', { title: 'Hello World' });
 }
 exports.picUpload = function(req, res) {
-    res.render('picUpload', { title: 'Hello World' });
+    res.render('picUpload', { title: 'Hello World', who: 'ssss' });
 }
 
 exports.loginAndregister = function(req, res) {

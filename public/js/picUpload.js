@@ -39,4 +39,4 @@
         return false;
 
     }
-
+ $(function(){$("#image_upload").change(function(){$(".detail").show();})});
