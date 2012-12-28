@@ -1,8 +1,18 @@
-<% layout('layout') %>
-<% script('js/ajaxfileupload.js') -%>
-<% script('js/commonFun.js') -%>
-<% script('js/picUpload.js') -%>
-<% stylesheet('css/ajaxfileupload.css') -%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>halo</title>
+
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+       <link href="css/ajaxfileupload.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/commonFun.js"></script>
+    <script type="text/javascript" src="js/picUpload.js"></script>
+</head>
+<body>
+
 	<img id="loading" src="img/loading.gif" style="display:none;">
 	<form action="www.baidu.com" method="post" enctype="multipart/form-data">
 		标签：<input id="tags" name="tags" class="span4" type="text" placeholder=".input-large">        <br />
@@ -17,3 +27,5 @@
           <br />
 		<button class="btn span2" id="buttonUpload" onclick="return ajaxFileUpload();">提交</button>
 	</form>
+ </body>
+ </html>

@@ -5,7 +5,7 @@ $(document).ready(function() {
         fitToView	: false,
         width		: '70%',
         height		: '70%',
-        autoSize	: false,
+        autoSize	: true,
         closeClick	: false,
         openEffect	: 'none',
         closeEffect	: 'none'
