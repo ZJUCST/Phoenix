@@ -1,8 +1,8 @@
 /**
  * Created with IntelliJ IDEA.
  * User: Lee
- * Date: 12-12-27
- * Time: 下午3:57
+ * Date: 12-12-29
+ * Time: 下午6:19
  * To change this template use File | Settings | File Templates.
  */
 $(function(){$("#username").blur(function(){
@@ -15,10 +15,28 @@ $(function(){$("#username").blur(function(){
 })
 })
 
-$(function(){$("#input2").blur(function(){
-    if((this.value)!=$("#input1").val())$("#double").html("两次密码不相同");
-    else $("#double").html("");
+$(function(){
+    $("#input2").blur(function(){
+        if((this.value)!=$("#input1").val())$("#double").html("两次密码不相同");
+        else $("#double").html("");
+    })
 
-})
+    $("#loginsubmit").click(function(){
+        $.ajax({
+            url: "/login",
+            type: "POST",
+            data:{username:$("#ti_loginusername").val(),password:$("#ti_loginpassword").val()},
+
+        }).done(function( xhr, msg ) {
+                alert(xhr);
+                alert( "Data Saved: " + msg );
+            })
+            .fail(function(xhr) {
+               var message=JSON.parse(xhr.responseText).errorCode;
+                if(message=="100003")      $("#loginmessage").html("用户名不存在！");
+                })
+
+
+
+    });
 });
-
