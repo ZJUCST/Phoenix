@@ -17,7 +17,7 @@ exports.picUpload = function(req, res) {
 }
 
 exports.loginAndregister = function(req, res) {
-    res.render('loginAndregister', { title: 'Hello World' });
+    res.render('loginAndregister', { title: 'Hello World', who: 'ssss' });
 }
 
 exports.picCollect = function(req, res) {
