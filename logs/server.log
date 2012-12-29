@@ -53,3 +53,549 @@ Error: failed to connect to [localhost:27017]
     at Socket.EventEmitter.emit (events.js:96:17)
     at Socket._destroy.self.errorEmitted (net.js:329:14)
     at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:17:06.928] [INFO] server - Express server listening on port 3000
+[2012-12-29 13:30:13.714] [ERROR] server - Get image collect page failed. 
+[2012-12-29 13:35:27.461] [ERROR] server - Get image collect page failed. 
+[2012-12-29 13:35:30.618] [ERROR] server - Get image collect page failed. 
+[2012-12-29 13:35:39.372] [INFO] server - Express server listening on port 3000
+[2012-12-29 13:35:43.183] [ERROR] server - Get image collect page failed. 
+[2012-12-29 13:50:48.416] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:50:48.417] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:50:49.420] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:50:50.429] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:51:49.707] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:51:49.707] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:51:50.401] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:51:51.405] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:52:01.225] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:52:01.225] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:52:01.945] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:52:02.944] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:52:23.811] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:52:23.811] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:52:24.525] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:52:25.534] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:52:40.084] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:52:40.085] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:52:40.810] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:52:41.809] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:52:48.740] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:52:48.740] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:52:49.430] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:52:49.937] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:52:49.937] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:52:50.434] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:52:50.641] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:52:51.634] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:52:51.634] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:52:51.640] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:52:52.306] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:52:53.316] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:52:55.173] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:52:55.174] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:52:55.865] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:52:56.876] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:53:00.041] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:53:00.041] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:53:00.757] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:53:01.756] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:53:02.936] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:53:02.936] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:53:03.672] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:53:04.674] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:53:08.267] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:53:08.268] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:53:08.975] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:53:09.984] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:55:35.139] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:55:35.140] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:55:35.862] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:55:36.861] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:56:34.523] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:56:34.523] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:56:35.258] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:56:36.258] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:56:38.056] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:56:38.057] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:56:38.751] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:56:39.759] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:57:19.171] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:57:19.172] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:57:19.887] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:57:20.891] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:58:16.427] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:58:16.430] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:58:17.142] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:58:18.152] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 13:59:25.846] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 13:59:25.848] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 13:59:26.529] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 13:59:27.533] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:00:19.778] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:00:19.779] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:00:20.450] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:00:21.361] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:00:21.361] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:00:21.460] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:00:22.084] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:00:23.094] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:00:23.333] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:00:23.333] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:00:24.021] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:00:25.030] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:00:25.653] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:00:25.654] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:00:26.363] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:00:27.367] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:00:27.558] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:00:27.558] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:00:28.265] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:00:29.237] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:00:29.238] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:00:29.269] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:00:29.967] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:00:30.972] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:00:31.117] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:00:31.117] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:00:31.831] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:00:32.835] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:00:33.162] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:00:33.163] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:00:33.863] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:00:34.867] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:00:35.352] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:00:35.352] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:00:36.017] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:00:37.017] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:00:50.498] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:00:50.499] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:00:51.227] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:00:52.231] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:07:24.054] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:07:24.055] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:07:24.738] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:07:25.738] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:07:34.450] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:07:34.451] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:07:35.131] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:07:36.141] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:11:10.363] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:11:10.363] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:11:11.068] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:11:12.075] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 14:29:04.018] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 14:29:04.018] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 14:29:04.705] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 14:29:05.711] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 15:14:32.041] [ERROR] server - Get image collect page failed. 
+[2012-12-29 15:15:02.737] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 15:15:02.738] [TRACE] server - Upload image to upyun:  'http://twitter.github.com/bootstrap/assets/img/responsive-illustrations.png'
+[2012-12-29 15:15:04.537] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/248381495b2f4b519bdcdd7bb1f9a6c8.png'
+[2012-12-29 15:15:05.541] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 15:16:50.630] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 15:16:50.639] [TRACE] server - Upload image to upyun:  'http://twitter.github.com/bootstrap/assets/img/responsive-illustrations.png'
+[2012-12-29 15:16:52.276] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/757695c2f86f4645b24100695888fa27.png'
+[2012-12-29 15:16:53.286] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 15:17:06.943] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 15:17:06.943] [TRACE] server - Upload image to upyun:  'http://twitter.github.com/bootstrap/assets/img/responsive-illustrations.png'
+[2012-12-29 15:17:08.802] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/1f3321e62b55493ba94828eebaa69819.png'
+[2012-12-29 15:17:09.802] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 15:17:20.443] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 15:17:20.444] [TRACE] server - Upload image to upyun:  'http://localhost/yuanqun/caiji.js'
+[2012-12-29 15:17:21.168] [TRACE] server - Uploaded:  '<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor="white">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+[2012-12-29 15:17:22.177] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 15:17:26.331] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 15:17:26.332] [TRACE] server - Upload image to upyun:  'http://localhost:3000/img/logo.gif'
+[2012-12-29 15:17:27.022] [TRACE] server - Uploaded:  '<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body bgcolor="white">\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+[2012-12-29 15:17:28.025] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 17:11:40.413] [INFO] server - Express server listening on port 3000
+[2012-12-29 17:12:36.342] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 17:12:36.344] [TRACE] server - Upload image to upyun:  'http://cpro.baidu.com/cpro/ui/uijs.php?rs=0&tu=u1059892&tn=text_default_160_600&n=91010099_cpr&adn=4&rsi1=600&rsi0=160&rad=&rss0=%23FFFFFF&conBW=0&rss1=%23FFFFFF&conOP=0&rss2=%230000FF&titFF=%25E5%25AE%258B%25E4%25BD%2593&titFS=12&titTA=left&rss3=%23444444&rss4=%23008000&rss5=&rss6=%23e10900&rsi5=4&ts=1&at=6&ch=0&cad=1&aurl=&rss7=&cpa=1&fv=11&cn=1&if=16&word=http%3A%2F%2Fimage.baidu.com%2Fi%3Fct%3D503316480%26z%3D%26tn%3Dbaiduimagedetail%26word%3D%25E5%259B%25BE%25E7%2589%2587%26ie%3Dutf-8%26in%3D0%26cl%3D2%26lm%3D-1%26st%3D%26pn%3D0%26rn%3D1%26di%3D0%26ln%3D2026%26fr%3Dala1%26fm%3Dala1%26fmq%3D1356768305618_R%26ic%3D%26s%3D%26se%3D%26sme%3D0%26tab%3D%26width%3D%26height%3D%26face%3D%26is%3D0%26istype%3D%23pn0%26-1%26di0%26objURLhttp%253A%252F%252Fsjrjy.apkzz.net%252F201011%252F291354164ea84578066309.jpg%26fromURLippr_z2C%2524qAzdH3FAzdH3Fooo_z%2526e3Bf363y_z%2526e3Bv54AzdH3Fw6vitej-ri5gj-wt1-0dnm_z%2526e3Bip4s%26W480%26H800%26T0%26S0%26TPjpg&refer=http%3A%2F%2Fimage.baidu.com%2Fi%3Ftn%3Dbaiduimage%26ct%3D201326592%26lm%3D-1%26cl%3D2%26fr%3Dala1%26word%3D%25CD%25BC%25C6%25AC&ready=3&jk=ecb3d3cd74304e62&jn=3&lmt=1356740630&csp=1280,800&csn=1280,760&ccd=32&chi=1&cja=true&cpl=28&cmi=82&cce=true&csl=zh-CN&did=1&rt=16&dt=1356769431&ev=67108864&c01=0&prt=1356769430659&i3=f&anatp=0&styid=0'
+[2012-12-29 17:13:07.404] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-29 17:13:08.413] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 17:50:01.383] [INFO] server - Express server listening on port 3000
+[2012-12-29 17:51:01.152] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 17:51:01.153] [TRACE] server - Upload image to upyun:  'http://sjrjy.apkzz.net/201011/291354164ea84578066309.jpg'
+[2012-12-29 17:51:45.351] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/1cbdcfcb4acd49e79543662aadabc69c.jpg'
+[2012-12-29 17:51:46.365] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:24)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-29 17:55:06.621] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 17:55:06.622] [TRACE] server - Upload image to upyun:  'http://sjrjy.apkzz.net/201011/291354164ea84578066309.jpg'
+[2012-12-29 17:55:20.212] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/8b1f78293e5847d5aaf8a985b6a5dab0.jpg'
+[2012-12-29 17:55:20.225] [TRACE] server - Save image to db successfully.
+[2012-12-29 18:00:44.083] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 18:00:44.083] [TRACE] server - Upload image to upyun:  'http://t11.baidu.com/it/u=1411866595,1770014224&fm=59'
+[2012-12-29 18:01:17.849] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-29 18:01:17.853] [ERROR] server - [Error: no open connections]
+Error: no open connections
+    at Db._executeInsertCommand (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\db.js:1890:27)
+    at insertAll (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\collection.js:326:26)
+    at Collection.insert (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\collection.js:85:3)
+    at exports.bindSkin.obj.(anonymous function) [as insert] (D:\githubwww\Phoenix\node_modules\mongoskin\lib\mongoskin\utils.js:61:14)
+    at EventEmitter.<anonymous> (D:\githubwww\Phoenix\node_modules\bll\imageBLL.js:42:15)
+    at EventEmitter.emit (events.js:96:17)
+    at D:\githubwww\Phoenix\node_modules\bll\imageBLL.js:37:20
+    at Request.exports.upload [as _callback] (D:\githubwww\Phoenix\node_modules\util\upyunws.js:32:13)
+    at Request.init.self.callback (D:\githubwww\Phoenix\node_modules\request\main.js:122:22)
+    at Request.EventEmitter.emit (events.js:96:17)
+[2012-12-29 18:01:17.859] [TRACE] server - Save image to db successfully.
+[2012-12-29 18:09:18.457] [ERROR] server - Get image collect page failed. 
+[2012-12-29 18:09:19.756] [ERROR] server - Get image collect page failed. 
