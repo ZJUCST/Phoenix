@@ -18,9 +18,23 @@ exports.upload = function(req, res) {
 }
 
 exports.collect = function(req, res) {
+    req.setEncoding('utf-8');
+    req.session.user = {_id: 1, name: 'test'};
     SLOG.trace("Receive upload request from: ", req.headers['user-agent']);
     if(req.session.user && req.body.uri) {
         imagebll.collect(req, res);
+    } else {
+        res.send('Not Authorized', 403);
+    }
+}
+
+exports.getPage = function(req, res) {
+    SLOG.trace("Receive get a page of image request from: ", req.headers['user-agent']);
+
+    imagebll.getImages(req, res, req.query.pre);
+    return;
+    if(req.query.pre) {
+        imagebll.getImages(req, res, req.query.pre);
     } else {
         res.send('Not Authorized', 403);
     }

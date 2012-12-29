@@ -2,18 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/ajaxfileupload.css" afterPath="$PROJECT_DIR$/public/css/ajaxfileupload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/picUpload.ejs" afterPath="$PROJECT_DIR$/views/picUpload.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/collect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/collect.ejs" afterPath="$PROJECT_DIR$/views/collect.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/errorCode.def.json" afterPath="$PROJECT_DIR$/conf/errorCode.def.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/page.js" afterPath="$PROJECT_DIR$/routes/page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/upyunWS.conf.json" afterPath="$PROJECT_DIR$/conf/upyunWS.conf.json" />
+    </list>
+    <list id="e434f5d7-3b6d-474c-bdd0-d6d47ede49fe" name="12.28" comment="12.28">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/server.log" afterPath="$PROJECT_DIR$/logs/server.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Phoenix.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356575994377" ignored="false" />
+    <file path="/Dummy.txt" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356754401595" ignored="false" />
     <file path="/reg.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356513574046" ignored="false" />
-    <file path="/picUpload.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356576710558" ignored="false" />
-    <file path="/layout.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356571147803" ignored="false" />
-    <file path="/ajaxfileupload.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356576715829" ignored="false" />
+    <file path="/layout.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356749218508" ignored="false" />
+    <file path="/ajaxfileupload.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356672523156" ignored="false" />
+    <file path="/picUpload.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356672492874" ignored="false" />
+    <file path="/commonFun.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356662291692" ignored="false" />
+    <file path="/layout.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356663480623" ignored="false" />
+    <file path="/jquery.fancybox.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356663674772" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356675922619" ignored="false" />
+    <file path="$PROJECT_DIR$/logs/server.log" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356674165008" ignored="false" />
+    <file path="/page.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356755086049" ignored="false" />
+    <file path="/picUpload.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356672858541" ignored="false" />
+    <file path="/layout.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356673748870" ignored="false" />
+    <file path="/collect.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356757283545" ignored="false" />
+    <file path="/collect.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356753142858" ignored="false" />
+    <file path="/collect.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356757199719" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +45,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -63,7 +80,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -73,19 +90,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ajaxfileupload.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/ajaxfileupload.css">
+      <file leaf-file-name="caijitest.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/caijitest.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0987013">
+            <state line="9" column="37" selection-start="174" selection-end="174" vertical-scroll-proportion="-6.107143">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="picUpload.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/picUpload.js">
+      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="1" column="24" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.6785714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="21" selection-start="485" selection-end="485" vertical-scroll-proportion="8.142858">
               <folding />
             </state>
           </provider>
@@ -94,7 +120,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="25" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
+            <state line="45" column="41" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="54" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +138,36 @@
       <file leaf-file-name="picUpload.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/picUpload.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+            <state line="27" column="20" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-5.714286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collect.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/collect.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="67" selection-start="381" selection-end="381" vertical-scroll-proportion="2.7142856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collect.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/collect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="18" selection-start="206" selection-end="206" vertical-scroll-proportion="0.104395606">
+              <folding>
+                <element signature="e#0#158#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collect.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/collect.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,22 +191,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/node_modules/bll.js" />
-        <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/routes/image.js" />
-        <option value="$PROJECT_DIR$/node_modules/bll/imageBLL.js" />
-        <option value="$PROJECT_DIR$/conf/log4js.conf.json" />
-        <option value="$PROJECT_DIR$/conf/upyunWS.conf.json" />
-        <option value="$PROJECT_DIR$/logs/server.log" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/reg.js" />
+        <option value="$PROJECT_DIR$/public/js/commonFun.js" />
+        <option value="$PROJECT_DIR$/public/js/layout.js" />
+        <option value="$PROJECT_DIR$/public/css/jquery.fancybox.css" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
-        <option value="$PROJECT_DIR$/public/js/common.js" />
-        <option value="$PROJECT_DIR$/public/css/layout" />
-        <option value="$PROJECT_DIR$/views/layout.ejs" />
-        <option value="$PROJECT_DIR$/public/css/layout.css" />
-        <option value="$PROJECT_DIR$/views/picUpload.ejs" />
         <option value="$PROJECT_DIR$/public/css/ajaxfileupload.css" />
+        <option value="$PROJECT_DIR$/public/js/picUpload.js" />
+        <option value="$PROJECT_DIR$/public/css/layout.css" />
+        <option value="$PROJECT_DIR$/node_modules/bll/imageBLL.js" />
+        <option value="$PROJECT_DIR$/views/layout.ejs" />
+        <option value="$PROJECT_DIR$/views/picUpload.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/css/collect.css" />
+        <option value="$PROJECT_DIR$/routes/page.js" />
+        <option value="$PROJECT_DIR$/conf/upyunWS.conf.json" />
+        <option value="$PROJECT_DIR$/public/js/collect.js" />
+        <option value="$PROJECT_DIR$/views/collect.ejs" />
       </list>
     </option>
   </component>
@@ -180,6 +244,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,7 +287,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,7 +305,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,14 +322,23 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="Phoenix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phoenix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
@@ -289,6 +363,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\githubwww\Phoenix\public\img" />
+      <recent name="D:\githubwww\Phoenix\public\css" />
+      <recent name="D:\githubwww\Phoenix\public\js" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js">
@@ -441,6 +517,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="" />
+      <changelist id="e434f5d7-3b6d-474c-bdd0-d6d47ede49fe" name="12.28" comment="" />
       <created>1355743617798</created>
       <updated>1355743617798</updated>
     </task>
@@ -477,37 +554,37 @@
       <updated>1356076052718</updated>
     </task>
     <task id="LOCAL-00009" summary="configure log4js and add image bll code and complete image upload apis">
-      <created>1356570832752</created>
-      <updated>1356570832752</updated>
+      <created>1356657230537</created>
+      <updated>1356657230537</updated>
     </task>
     <task id="LOCAL-00010" summary="configure log4js and add image bll code and complete image upload apis">
-      <created>1356570940637</created>
-      <updated>1356570940637</updated>
+      <created>1356661786519</created>
+      <updated>1356661786519</updated>
     </task>
-    <task id="LOCAL-00011" summary="configure log4js and add image bll code and complete image upload apis">
-      <created>1356571168025</created>
-      <updated>1356571168025</updated>
+    <task id="LOCAL-00011" summary="fancybox">
+      <created>1356664332183</created>
+      <updated>1356664332183</updated>
     </task>
     <task id="LOCAL-00012" summary="configure log4js and add image bll code and complete image upload apis">
-      <created>1356571305149</created>
-      <updated>1356571305149</updated>
+      <created>1356665087914</created>
+      <updated>1356665087914</updated>
     </task>
-    <task id="LOCAL-00013" summary="configure log4js and add image bll code and complete image upload apis">
-      <created>1356575435246</created>
-      <updated>1356575435246</updated>
+    <task id="LOCAL-00013" summary="change upload">
+      <created>1356672956751</created>
+      <updated>1356672956751</updated>
     </task>
-    <task id="LOCAL-00014" summary="upload change">
-      <created>1356575468752</created>
-      <updated>1356575468752</updated>
+    <task id="LOCAL-00014" summary="add some logic to login/register">
+      <created>1356675768904</created>
+      <updated>1356675768904</updated>
     </task>
-    <task id="LOCAL-00015" summary="upload change text">
-      <created>1356575573325</created>
-      <updated>1356575573325</updated>
+    <task id="LOCAL-00015" summary="collect">
+      <created>1356754407744</created>
+      <updated>1356754407744</updated>
     </task>
     <option name="localTasksCounter" value="16" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="3">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -531,7 +608,7 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -541,20 +618,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32576984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32357723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.6699187" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.67154473" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -599,7 +676,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload change text" />
+    <option name="LAST_COMMIT_MESSAGE" value="collect" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -617,9 +694,11 @@
     <MESSAGE value="add upyun webservice related code" />
     <MESSAGE value="Change DAL interface (check it in dal/index.js) and add imageDAL base code" />
     <MESSAGE value="add bll level and modify upyunws interface" />
+    <MESSAGE value="fancybox" />
     <MESSAGE value="configure log4js and add image bll code and complete image upload apis" />
-    <MESSAGE value="upload change" />
-    <MESSAGE value="upload change text" />
+    <MESSAGE value="change upload" />
+    <MESSAGE value="add some logic to login/register" />
+    <MESSAGE value="collect" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -663,93 +742,113 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/reg.js">
+    <entry file="file://$PROJECT_DIR$/public/css/ajaxfileupload.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="425" selection-end="425" vertical-scroll-proportion="0.20950705" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="23" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.033450704" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="71" selection-end="71" vertical-scroll-proportion="0.19322033" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/log4js.conf.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="742" selection-end="742" vertical-scroll-proportion="0.48474577" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bll/imageBLL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="19" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.03220339" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/dal/imageDAL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="285" selection-end="285" vertical-scroll-proportion="0.38644066" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/ajaxfileupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.8770056" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/commonFun.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="264" selection-end="264" vertical-scroll-proportion="0.3948052" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="29" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="22" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/picUpload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="41" column="71" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/jquery.fancybox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="1" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.04896907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bll/imageBLL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="24" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.43846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="12" selection-start="71" selection-end="71" vertical-scroll-proportion="0.04896907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/caijitest.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="37" selection-start="174" selection-end="174" vertical-scroll-proportion="-6.107143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.IntelliJIdea12/config/plugins/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/library/node_globals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="4" selection-start="1275" selection-end="1293" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="485" selection-end="485" vertical-scroll-proportion="8.142858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/collect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/picUpload.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+        <state line="27" column="20" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-5.714286">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/ajaxfileupload.css">
+    <entry file="file://$PROJECT_DIR$/routes/page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0987013">
+        <state line="8" column="54" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="24" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.6785714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/upyunWS.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="46" selection-start="95" selection-end="95" vertical-scroll-proportion="0.104395606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="41" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/collect.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="67" selection-start="381" selection-end="381" vertical-scroll-proportion="2.7142856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/collect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="206" selection-end="206" vertical-scroll-proportion="0.104395606">
+          <folding>
+            <element signature="e#0#158#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,16 +1,38 @@
-<% layout('layout') %>
-<% script('js/ajaxfileupload.js') -%>
-<% script('js/commonFun.js') -%>
-<% script('js/picUpload.js') -%>
-<% stylesheet('css/ajaxfileupload.css') -%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>halo</title>
+
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+       <link href="css/ajaxfileupload.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/commonFun.js"></script>
+    <script type="text/javascript" src="js/picUpload.js"></script>
+</head>
+<body>
+
 	<img id="loading" src="img/loading.gif" style="display:none;">
 	<form action="www.baidu.com" method="post" enctype="multipart/form-data">
-		标签：<input id="tags" name="tags" />        <br />
-		描述：<input id="description" name="description" />
-         <div class="upload1">
-         	<input type="text" class="ipt_text" id="file_text" />
-         	<input type="button" class="btn" value="浏 览" />
-         	<input type="file" id="image_upload" name="image_upload"  multiple="true"  class="upload_file1" size="26" onchange="document.getElementById('file_text').value=this.value" />
-         </div>
-		<button class="btn" id="buttonUpload" onclick="return ajaxFileUpload();">提交</button>
+        <h4>上传采集</h4>
+        <hr />
+        <div class="upload btn span2">
+            <div class="uploadbg">
+                <input type="file" id="image_upload" name="image_upload"  multiple="true"  class="upload_file" />
+            </div>
+        </div>
+        <div class="detail">
+            <br />
+            <br />
+            <br />
+            标签：<input id="tags" name="tags" class="span4" type="text" >        <br />
+            描述：<textarea rows="3" class="span4"  id="description" name="description"> </textarea> <br />
+
+
+            <button class="btn btn-primary span2" id="buttonUpload" onclick="return ajaxFileUpload();">提交</button>
+        </div>
+
 	</form>
+ </body>
+ </html>

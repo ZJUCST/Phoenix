@@ -1,9 +1,55 @@
 [2012-12-26 20:35:55.611] [INFO] server - Express server listening on port 3000
-[2012-12-26 21:18:04.610] [INFO] server - Express server listening on port 3000
-[2012-12-27 09:04:08.760] [INFO] server - Express server listening on port 3000
-[2012-12-27 09:12:22.890] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
-[2012-12-27 09:15:53.099] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
-[2012-12-27 09:21:55.522] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
-[2012-12-27 09:24:27.308] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
-[2012-12-27 10:30:08.240] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
-[2012-12-27 10:40:23.529] [INFO] server - Express server listening on port 3000
+[2012-12-28 08:56:23.379] [INFO] server - Express server listening on port 3000
+[2012-12-28 09:15:33.818] [INFO] server - Express server listening on port 3000
+[2012-12-28 10:38:45.664] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-28 10:57:18.569] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-28 10:58:17.550] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-28 11:13:30.723] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-28 11:17:56.046] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-28 11:25:21.709] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-28 12:38:51.474] [INFO] server - Express server listening on port 3000
+[2012-12-28 12:47:29.662] [INFO] server - Express server listening on port 3000
+[2012-12-28 12:47:57.415] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-28 13:34:34.529] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-28 13:46:55.416] [INFO] server - Express server listening on port 3000
+[2012-12-28 13:51:19.932] [INFO] server - Express server listening on port 3000
+[2012-12-28 13:54:02.983] [INFO] server - Express server listening on port 3000
+[2012-12-28 13:55:35.155] [INFO] server - Express server listening on port 3000
+[2012-12-28 13:55:58.454] [INFO] server - Express server listening on port 3000
+[2012-12-28 13:56:59.124] [INFO] server - Express server listening on port 3000
+[2012-12-28 14:00:15.174] [INFO] server - Express server listening on port 3000
+[2012-12-28 14:03:38.543] [INFO] server - Express server listening on port 3000
+[2012-12-28 14:11:00.575] [INFO] server - Express server listening on port 3000
+[2012-12-28 14:11:20.490] [INFO] server - Express server listening on port 3000
+[2012-12-29 10:28:30.765] [INFO] server - Express server listening on port 3000
+[2012-12-29 10:36:10.695] [INFO] server - Express server listening on port 3000
+[2012-12-29 10:41:17.188] [INFO] server - Express server listening on port 3000
+[2012-12-29 10:41:38.513] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 10:45:04.266] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 10:56:45.301] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 10:57:07.507] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 11:46:47.710] [INFO] server - Express server listening on port 3000
+[2012-12-29 12:20:28.879] [INFO] server - Express server listening on port 3000
+[2012-12-29 12:20:33.912] [ERROR] server - Get image collect page failed. 
+[2012-12-29 12:20:58.870] [INFO] server - Express server listening on port 3000
+[2012-12-29 12:21:03.070] [ERROR] server - Get image collect page failed. 
+[2012-12-29 12:23:04.939] [INFO] server - Express server listening on port 3000
+[2012-12-29 12:25:48.118] [INFO] server - Express server listening on port 3000
+[2012-12-29 12:25:52.459] [ERROR] server - Get image collect page failed. 
+[2012-12-29 12:27:04.533] [ERROR] server - Get image collect page failed. 
+[2012-12-29 12:27:11.376] [INFO] server - Express server listening on port 3000
+[2012-12-29 12:27:14.881] [ERROR] server - Get image collect page failed. 
+[2012-12-29 12:29:52.704] [INFO] server - Express server listening on port 3000
+[2012-12-29 12:30:08.882] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2012-12-29 12:30:08.883] [TRACE] server - Upload image to upyun:  '/img/logo.gif'
+[2012-12-29 12:30:10.792] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-f1a5fc249f49d7a852f325fe4ca6cb5a/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-29 12:30:11.809] [ERROR] server - [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (D:\githubwww\Phoenix\node_modules\mongoskin\node_modules\mongodb\lib\mongodb\connection\connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
