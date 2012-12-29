@@ -8,12 +8,16 @@
 
 
 exports.index = function(req, res) {
-    res.render('index', { title: 'Hello World',who:{name:'11',pic:"/img/logo.gif"}});
+    res.render('index', { title: 'Hello World',who:{name:'',pic:"/img/logo.gif"}});
 }
 exports.picUpload = function(req, res) {
     res.render('picUpload', { title: 'Hello World', who: 'ssss' });
 }
 
 exports.loginAndregister = function(req, res) {
-    res.render('loginAndregister', { title: 'Hello World' });
+    res.render('loginAndregister', { title: 'Hello World',who:{name:'',pic:"/img/logo.gif"} });
+}
+
+exports.collect = function(req, res) {
+    res.render('collect', { title: 'Hello World' });
 }
