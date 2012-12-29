@@ -38,5 +38,9 @@
     "400003": {
         "errorCode": 400003,
         "message": "Parameter error: pre must be a string of 24 hex characters."
+    },
+    "400004": {
+        "errorCode": 400004,
+        "message": "Parameter error: not enough parameters."
     }
 }

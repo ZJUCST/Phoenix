@@ -44,7 +44,8 @@ app.configure('development', function(){
 app.get('/', page.index);
 app.get('/upload', page.picUpload);
 app.get('/login', page.loginAndregister);
-app.get('/collect', page.collect);
+app.get('/collect', page.picCollect);
+
 
 /**
  * Add apis route here
