@@ -27,6 +27,10 @@
         "errorCode": 100007,
         "message": "email already existed."
     },
+    "100008":{
+        "errorCode":100008,
+        "message":"email is not the right format"
+    },
     "400001": {
         "errorCode": 400001,
         "message": "register error, try again latter."
