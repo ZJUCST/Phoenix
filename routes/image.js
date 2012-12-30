@@ -31,11 +31,5 @@ exports.collect = function(req, res) {
 exports.getPage = function(req, res) {
     SLOG.trace("Receive get a page of image request from: ", req.headers['user-agent']);
 
-    imagebll.getImages(req, res, req.query.pre);
-    return;
-    if(req.query.pre) {
-        imagebll.getImages(req, res, req.query.pre);
-    } else {
-        res.send('Not Authorized', 403);
-    }
+    imagebll.getImages(req, res);
 }

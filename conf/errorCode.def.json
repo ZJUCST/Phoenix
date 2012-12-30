@@ -46,5 +46,9 @@
     "400004": {
         "errorCode": 400004,
         "message": "Parameter error: not enough parameters."
+    },
+    "400005": {
+        "errorCode": 400005,
+        "message": "Parameter error: next must be a string of 24 hex characters."
     }
 }

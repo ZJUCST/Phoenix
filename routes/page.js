@@ -17,7 +17,7 @@ exports.picUpload = function(req, res) {
 }
 
 exports.loginAndregister = function(req, res) {
-    res.render('loginAndregister', { title: 'Hello World', who: 'ssss' });
+    res.render('loginAndregister', { title: 'Hello World',who:{name:'',pic:"/img/logo.gif"} });
 }
 
 exports.mainpage = function(req, res) {
@@ -26,12 +26,12 @@ exports.mainpage = function(req, res) {
 
 exports.picCollect = function(req, res) {
     var from = req.query.from;
-    var url = req.query.url;
+    var uri = req.query.uri;
     var description = req.query.description;
-    if(from && url) {
-        res.render();
+    if(from && uri) {
+        res.render('collect', { from:from,uri:uri,description:description });
     } else {
         SLOG.error("Get image collect page failed. ");
-        res.send(errorDef[400004], 401);
+        res.send(errDef[400004], 401);
     }
 }
