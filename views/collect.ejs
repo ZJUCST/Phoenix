@@ -4,23 +4,26 @@
 
     <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/collect.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/collect.js"></script>
 </head>
 <body>
 <div id="container">
     <div class="row">
-        <div class="span9 offset4">
-
+        <div class="">
             <div class="row">
-                <div class="span3"><img width="170px" src="/img/logo.gif" /></div>
+                <div class="span3"><img width="170px" src="<%=uri%>" /></div>
                 <div class="span3">
-                    <form action="/collect/image" method="post" id="">
+                    <form action="" method="post" id="">
                     标签：<input id="tags" name="tags" class="span4" type="text" >        <br />
                     描述：<textarea rows="3" class="span4"  id="description" name="description"> </textarea> <br />
-                    <input type="hidden" name="uri" id="uri" value="/img/logo.gif">
-
-                    <input type="submit" class="btn btn-primary span2" id="buttonUpload" ></button>
+                    <input type="hidden" name="uri" id="uri" value="<%=uri%>">
+                     <input type="hidden" name="from" id="from" value="<%=from%>">
+                    <input type="button"  class="btn btn-primary span2" id="submitBtn" value="提交">
+                        <br /> <br />
+                      <input class="btn btn-success span4" id="successBtn" type="button"  value="采集成功 3秒后自动关闭" />
                     </form>
                 </div>
             </div>
