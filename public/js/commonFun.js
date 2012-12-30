@@ -216,3 +216,39 @@ jQuery.extend({
     }
 })
 
+//GetObjPos will use CPos
+var CPos = function(x, y){
+this.x = x;
+this.y = y;
+}
+//get object's posistion  x,y
+var  GetObjPos = function(ATarget) {
+var target = ATarget;
+var pos = new CPos(target.offsetLeft, target.offsetTop);
+
+target = target.offsetParent;
+while (target)
+{
+pos.x += target.offsetLeft;
+pos.y += target.offsetTop;
+target = target.offsetParent;
+}
+return pos;
+}
+
+// judge if  the mouse in the object
+var mouseInObject = function(object){
+		var div = object;
+        var x=event.clientX;
+        var y=event.clientY;
+        var divx1 = div.offsetLeft;
+        var divy1 = div.offsetTop;
+        var divx2 = div.offsetLeft + div.offsetWidth;
+        var divy2 = div.offsetTop + div.offsetHeight;
+        if( x < divx1 || x > divx2 || y < divy1 || y > divy2){
+			return false;
+        }else{
+			return true;//mouse in object
+		}
+
+}
