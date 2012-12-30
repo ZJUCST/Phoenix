@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="add login and regist">
-      <change type="DELETED" beforePath="D:\YQProject\Phoenix\public\css\collect.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\YQProject\Phoenix\public\js\collect.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\YQProject\Phoenix\views\collect.ejs" afterPath="" />
+    <list default="true" id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/mianpage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/image.js" afterPath="$PROJECT_DIR$/routes/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bll/imageBLL.js" afterPath="$PROJECT_DIR$/node_modules/bll/imageBLL.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/mainpage.ejs" afterPath="$PROJECT_DIR$/views/mainpage.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/loginAndregister.js" afterPath="$PROJECT_DIR$/public/js/loginAndregister.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/page.js" afterPath="$PROJECT_DIR$/routes/page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/server.log" afterPath="$PROJECT_DIR$/logs/server.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="d8d6ccce-8079-4ff4-aa7a-ad5ff8a73e4e" name="Ignore" comment="" />
     <ignored path="Phoenix.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356851485015" ignored="false" />
+    <file path="/Dummy.txt" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356876817848" ignored="false" />
     <file path="/reg.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356513574046" ignored="false" />
     <file path="/loginAndregister.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356792664412" ignored="false" />
-    <file path="/app.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356851809632" ignored="false" />
-    <file path="/loginAndregister.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356792318267" ignored="false" />
-    <file path="/page.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356851612668" ignored="false" />
+    <file path="/app.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356875207719" ignored="false" />
+    <file path="/loginAndregister.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356867428406" ignored="false" />
+    <file path="/page.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356875064207" ignored="false" />
     <file path="/loginAndregister.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356789774305" ignored="false" />
-    <file path="/index.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356851634189" ignored="false" />
+    <file path="/index.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356875162015" ignored="false" />
     <file path="/mainpage.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356851992857" ignored="false" />
+    <file path="/imageBLL.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356866254371" ignored="false" />
+    <file path="/edit.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356875447458" ignored="false" />
+    <file path="/edit.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356875523512" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +86,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="image.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/image.js">
+      <file leaf-file-name="loginAndregister.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/loginAndregister.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="58" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="10" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-20.357143">
               <folding />
             </state>
           </provider>
@@ -94,7 +107,25 @@
       <file leaf-file-name="page.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="24" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+            <state line="23" column="86" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="20" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,56 +134,34 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="49" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
+            <state line="47" column="57" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mianpage.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/mianpage.css">
+      <file leaf-file-name="edit.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/edit.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+            <state line="4" column="12" selection-start="98" selection-end="113" vertical-scroll-proportion="-2.7142856">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="caiji.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/caiji.js">
+      <file leaf-file-name="edit.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/edit.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="62" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1356527412488" expanded="false" signature="427:468" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainpage.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/mainpage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="151" selection-end="151" vertical-scroll-proportion="0.05107527">
+            <state line="2" column="18" selection-start="58" selection-end="58" vertical-scroll-proportion="0.101604275">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginAndregister.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/loginAndregister.js">
+      <file leaf-file-name="edit.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="91" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
+            <state line="14" column="41" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,37 +170,8 @@
       <file leaf-file-name="loginAndregister.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/loginAndregister.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="23" selection-end="109" vertical-scroll-proportion="-0.6785714">
+            <state line="0" column="0" selection-start="0" selection-end="109" vertical-scroll-proportion="-0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainpage.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/mainpage.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.3571428">
-              <folding>
-                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#3;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#4;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#5;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#6;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#7;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#8;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#9;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#10;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#11;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#12;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#13;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#14;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#15;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#16;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#17;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#18;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-                <element signature="tag#div#19;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -215,22 +195,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/routes/login.js" />
-        <option value="$PROJECT_DIR$/public/loginAndregister.html" />
-        <option value="$PROJECT_DIR$/views/header.ejs" />
-        <option value="$PROJECT_DIR$/views/layout.ejs" />
-        <option value="$PROJECT_DIR$/conf/errorCode.def.json" />
         <option value="$PROJECT_DIR$/views/loginAndregister.ejs" />
-        <option value="$PROJECT_DIR$/public/js/loginAndregister.js" />
         <option value="$PROJECT_DIR$/public/css/loginAndregister.css" />
         <option value="$PROJECT_DIR$/views/main.ejs.html" />
         <option value="$PROJECT_DIR$/public/css/mainpage.css.html" />
-        <option value="$PROJECT_DIR$/routes/page.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/mainpage.ejs" />
         <option value="$PROJECT_DIR$/public/css/mianpage.css" />
         <option value="$PROJECT_DIR$/public/js/mainpage.js" />
+        <option value="$PROJECT_DIR$/routes/image.js" />
+        <option value="$PROJECT_DIR$/node_modules/bll/imageBLL.js" />
+        <option value="$PROJECT_DIR$/public/js/loginAndregister.js" />
+        <option value="$PROJECT_DIR$/public/js/edit.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/page.js" />
+        <option value="$PROJECT_DIR$/views/edit.ejs" />
+        <option value="$PROJECT_DIR$/public/css/edit.css" />
       </list>
     </option>
   </component>
@@ -284,6 +264,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -380,10 +363,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phoenix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Phoenix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -402,8 +396,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -442,33 +436,7 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -499,7 +467,33 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -515,6 +509,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -536,13 +537,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="2">
@@ -681,7 +675,11 @@
       <created>1356851489599</created>
       <updated>1356851489599</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="edit">
+      <created>1356876838924</created>
+      <updated>1356876838924</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -725,8 +723,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20340356" sideWeight="0.6427481" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3572519" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20340356" sideWeight="0.64580154" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3541985" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -776,7 +774,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="mainpage" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -803,6 +801,7 @@
     <MESSAGE value="#ti_email" />
     <MESSAGE value="add login and regist" />
     <MESSAGE value="mainpage" />
+    <MESSAGE value="edit" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -847,7 +846,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -855,138 +854,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/loginAndregister.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="69" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="24" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="49" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/loginAndregister.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="23" selection-end="109" vertical-scroll-proportion="-0.6785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/mainpage.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.3571428">
-          <folding>
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#3;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#4;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#5;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#6;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#7;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#8;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#9;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#10;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#11;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#12;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#13;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#14;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#15;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#16;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#17;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#18;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-            <element signature="tag#div#19;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/mianpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/caiji.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="62" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1356527412488" expanded="false" signature="427:468" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/loginAndregister.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="91" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/mainpage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="151" selection-end="151" vertical-scroll-proportion="0.05107527">
+        <state line="7" column="1" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/upyunWS.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="46" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bll/imageBLL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/util/upyunWS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="45" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/loginAndregister.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="58" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/loginAndregister.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="109" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="10" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-20.357143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="57" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="86" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/edit.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="98" selection-end="113" vertical-scroll-proportion="-2.7142856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/edit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="58" selection-end="58" vertical-scroll-proportion="0.101604275">
           <folding />
         </state>
       </provider>

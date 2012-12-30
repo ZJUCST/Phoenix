@@ -15,7 +15,7 @@ $(function(){$("#username").blur(function(){
 })
 })
 
-$(function(){
+$(document).ready(function(){
     $("#input2").blur(function(){
         if((this.value)!=$("#input1").val())$("#double").html("两次密码不相同");
         else $("#double").html("");

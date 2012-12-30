@@ -10,6 +10,7 @@ var imagebll = require('bll/imageBLL');
 
 exports.upload = function(req, res) {
     SLOG.trace("Receive upload request from: ", req.headers['user-agent']);
+    req.session.user = {_id: 1, name: 'test'};
     if(req.session.user && req.files.image_upload) {
         imagebll.upload(req, res);
     } else {

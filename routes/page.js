@@ -20,6 +20,9 @@ exports.loginAndregister = function(req, res) {
     res.render('loginAndregister', { title: 'Hello World',who:{name:'',pic:"/img/logo.gif"} });
 }
 
+exports.edit = function(req, res) {
+    res.render('edit', { title: 'Hello World',who:{name:'lee',email:'litao6550652.com'} });
+}
 exports.mainpage = function(req, res) {
     res.render('mainpage', { title: 'Hello World', who: 'ssss' });
 }
