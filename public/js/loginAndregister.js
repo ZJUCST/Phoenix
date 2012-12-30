@@ -49,7 +49,7 @@ $(function(){
             .fail(function(xhr) {
                 var message=JSON.parse(xhr.responseText).errorCode;
                 if(message=="100006")      $("#lengthmin").html("用户名已存在！");
-                else if(message=="100007")           $("#ti_email").html("邮箱已存在！");
+                else if(message=="100007")         $("#ti_email").html("邮箱已存在！");
             })
     })
 
