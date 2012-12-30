@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/collect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/collect.ejs" afterPath="$PROJECT_DIR$/views/collect.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/errorCode.def.json" afterPath="$PROJECT_DIR$/conf/errorCode.def.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/page.js" afterPath="$PROJECT_DIR$/routes/page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/upyunWS.conf.json" afterPath="$PROJECT_DIR$/conf/upyunWS.conf.json" />
+    <list default="true" id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="add login and regist">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/loginAndregister.js" />
+      <change type="DELETED" beforePath="D:\YQProject\Phoenix\logs\server.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/picUpload.ejs" afterPath="$PROJECT_DIR$/views/picUpload.ejs" />
     </list>
-    <list id="e434f5d7-3b6d-474c-bdd0-d6d47ede49fe" name="12.28" comment="12.28">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/server.log" afterPath="$PROJECT_DIR$/logs/server.log" />
+    <list id="d8d6ccce-8079-4ff4-aa7a-ad5ff8a73e4e" name="Ignore" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Phoenix.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356754401595" ignored="false" />
+    <file path="/Dummy.txt" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356776071058" ignored="false" />
     <file path="/reg.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356513574046" ignored="false" />
-    <file path="/layout.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356749218508" ignored="false" />
-    <file path="/ajaxfileupload.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356672523156" ignored="false" />
-    <file path="/picUpload.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356672492874" ignored="false" />
-    <file path="/commonFun.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356662291692" ignored="false" />
-    <file path="/layout.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356663480623" ignored="false" />
-    <file path="/jquery.fancybox.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356663674772" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356675922619" ignored="false" />
-    <file path="$PROJECT_DIR$/logs/server.log" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356674165008" ignored="false" />
-    <file path="/page.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356755086049" ignored="false" />
-    <file path="/picUpload.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356672858541" ignored="false" />
-    <file path="/layout.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356673748870" ignored="false" />
-    <file path="/collect.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356757283545" ignored="false" />
-    <file path="/collect.css" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356753142858" ignored="false" />
-    <file path="/collect.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356757199719" ignored="false" />
+    <file path="/loginAndregister.ejs" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356595292481" ignored="false" />
+    <file path="/app.js" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356595811469" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" time="1356776399013" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +30,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -80,7 +65,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -90,37 +75,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="caijitest.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/caijitest.ejs">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="37" selection-start="174" selection-end="174" vertical-scroll-proportion="-6.107143">
+            <state line="8" column="26" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <file leaf-file-name="image.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/image.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.6785714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="485" selection-end="485" vertical-scroll-proportion="8.142858">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="41" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
+            <state line="38" column="34" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,7 +96,43 @@
       <file leaf-file-name="page.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="54" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="34" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/header.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="33" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="50" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errorCode.def.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/errorCode.def.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="57" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,36 +141,25 @@
       <file leaf-file-name="picUpload.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/picUpload.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="20" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-5.714286">
+            <state line="13" column="70" selection-start="566" selection-end="566" vertical-scroll-proportion="-5.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collect.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/collect.ejs">
+      <file leaf-file-name="loginAndregister.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/loginAndregister.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="67" selection-start="381" selection-end="381" vertical-scroll-proportion="2.7142856">
+            <state line="45" column="75" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-0.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collect.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/collect.js">
+      <file leaf-file-name="loginAndregister.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/loginAndregister.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="206" selection-end="206" vertical-scroll-proportion="0.104395606">
-              <folding>
-                <element signature="e#0#158#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collect.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/collect.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+            <state line="13" column="36" selection-start="422" selection-end="422" vertical-scroll-proportion="-0.50708216">
               <folding />
             </state>
           </provider>
@@ -184,6 +176,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -191,22 +184,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/js/commonFun.js" />
-        <option value="$PROJECT_DIR$/public/js/layout.js" />
-        <option value="$PROJECT_DIR$/public/css/jquery.fancybox.css" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
-        <option value="$PROJECT_DIR$/public/css/ajaxfileupload.css" />
-        <option value="$PROJECT_DIR$/public/js/picUpload.js" />
-        <option value="$PROJECT_DIR$/public/css/layout.css" />
         <option value="$PROJECT_DIR$/node_modules/bll/imageBLL.js" />
-        <option value="$PROJECT_DIR$/views/layout.ejs" />
-        <option value="$PROJECT_DIR$/views/picUpload.ejs" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/css/collect.css" />
-        <option value="$PROJECT_DIR$/routes/page.js" />
+        <option value="$PROJECT_DIR$/conf/log4js.conf.json" />
         <option value="$PROJECT_DIR$/conf/upyunWS.conf.json" />
-        <option value="$PROJECT_DIR$/public/js/collect.js" />
-        <option value="$PROJECT_DIR$/views/collect.ejs" />
+        <option value="$PROJECT_DIR$/logs/server.log" />
+        <option value="$PROJECT_DIR$/routes/reg.js" />
+        <option value="$PROJECT_DIR$/routes/login.js" />
+        <option value="$PROJECT_DIR$/public/loginAndregister.html" />
+        <option value="$PROJECT_DIR$/views/header.ejs" />
+        <option value="$PROJECT_DIR$/views/layout.ejs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/css/loginAndregister.css" />
+        <option value="$PROJECT_DIR$/views/loginAndregister.ejs" />
+        <option value="$PROJECT_DIR$/routes/page.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/conf/errorCode.def.json" />
+        <option value="$PROJECT_DIR$/public/js/loginAndregister.js" />
       </list>
     </option>
   </component>
@@ -214,7 +207,23 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
-    <option name="height" value="776" />
+    <option name="height" value="816" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -225,7 +234,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -347,7 +356,7 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
@@ -362,9 +371,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\githubwww\Phoenix\public\img" />
-      <recent name="D:\githubwww\Phoenix\public\css" />
-      <recent name="D:\githubwww\Phoenix\public\js" />
+      <recent name="D:\YQProject\Phoenix\views" />
+      <recent name="D:\YQProject\Phoenix\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\YQProject\Phoenix\public" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js">
@@ -517,7 +528,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8fcb2646-c2d3-4aab-b10e-7a36ed487bd7" name="Default" comment="" />
-      <changelist id="e434f5d7-3b6d-474c-bdd0-d6d47ede49fe" name="12.28" comment="" />
+      <changelist id="d8d6ccce-8079-4ff4-aa7a-ad5ff8a73e4e" name="Ignore" comment="" />
       <created>1355743617798</created>
       <updated>1355743617798</updated>
     </task>
@@ -554,37 +565,37 @@
       <updated>1356076052718</updated>
     </task>
     <task id="LOCAL-00009" summary="configure log4js and add image bll code and complete image upload apis">
-      <created>1356657230537</created>
-      <updated>1356657230537</updated>
+      <created>1356527309988</created>
+      <updated>1356527309988</updated>
     </task>
     <task id="LOCAL-00010" summary="configure log4js and add image bll code and complete image upload apis">
-      <created>1356661786519</created>
-      <updated>1356661786519</updated>
+      <created>1356527401146</created>
+      <updated>1356527401146</updated>
     </task>
-    <task id="LOCAL-00011" summary="fancybox">
-      <created>1356664332183</created>
-      <updated>1356664332183</updated>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;public/img/glyphicons-halflings-white.png&#10;&#9;public/img/glyphicons-halflings.png&#10;&#9;public/js/jquery-1.8.3.js&#10;">
+      <created>1356530445332</created>
+      <updated>1356530445332</updated>
     </task>
-    <task id="LOCAL-00012" summary="configure log4js and add image bll code and complete image upload apis">
-      <created>1356665087914</created>
-      <updated>1356665087914</updated>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;public/img/glyphicons-halflings-white.png&#10;&#9;public/img/glyphicons-halflings.png&#10;&#9;public/js/jquery-1.8.3.js&#10;">
+      <created>1356531094943</created>
+      <updated>1356531094943</updated>
     </task>
-    <task id="LOCAL-00013" summary="change upload">
-      <created>1356672956751</created>
-      <updated>1356672956751</updated>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;public/img/glyphicons-halflings-white.png&#10;&#9;public/img/glyphicons-halflings.png&#10;&#9;public/js/jquery-1.8.3.js&#10;">
+      <created>1356667799637</created>
+      <updated>1356667799637</updated>
     </task>
-    <task id="LOCAL-00014" summary="add some logic to login/register">
-      <created>1356675768904</created>
-      <updated>1356675768904</updated>
+    <task id="LOCAL-00014" summary="add login and register route and css">
+      <created>1356669159196</created>
+      <updated>1356669159196</updated>
     </task>
-    <task id="LOCAL-00015" summary="collect">
-      <created>1356754407744</created>
-      <updated>1356754407744</updated>
+    <task id="LOCAL-00015" summary="modify url for upload and login">
+      <created>1356669288275</created>
+      <updated>1356669288275</updated>
     </task>
     <option name="localTasksCounter" value="16" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -605,33 +616,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="816" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38812786" sideWeight="0.48703402" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38931298" sideWeight="0.50729334" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32357723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19025876" sideWeight="0.49027553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.67154473" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25202593" sideWeight="0.61187214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35073408" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -676,7 +687,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="collect" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify url for upload and login" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -694,11 +705,10 @@
     <MESSAGE value="add upyun webservice related code" />
     <MESSAGE value="Change DAL interface (check it in dal/index.js) and add imageDAL base code" />
     <MESSAGE value="add bll level and modify upyunws interface" />
-    <MESSAGE value="fancybox" />
     <MESSAGE value="configure log4js and add image bll code and complete image upload apis" />
-    <MESSAGE value="change upload" />
-    <MESSAGE value="add some logic to login/register" />
-    <MESSAGE value="collect" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;public/img/glyphicons-halflings-white.png&#10;&#9;public/img/glyphicons-halflings.png&#10;&#9;public/js/jquery-1.8.3.js&#10;" />
+    <MESSAGE value="add login and register route and css" />
+    <MESSAGE value="modify url for upload and login" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -742,113 +752,113 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/css/ajaxfileupload.css">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/picUpload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="71" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/jquery.fancybox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="1" selection-start="1425" selection-end="1425" vertical-scroll-proportion="0.04896907">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bll/imageBLL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="24" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.43846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="71" selection-end="71" vertical-scroll-proportion="0.04896907">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/caijitest.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="174" selection-end="174" vertical-scroll-proportion="-6.107143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.IntelliJIdea12/config/plugins/NodeJS/lib/NodeJS.jar!/com/jetbrains/nodejs/library/node_globals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="1275" selection-end="1293" vertical-scroll-proportion="0.33333334">
+        <state line="3" column="32" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="485" selection-end="485" vertical-scroll-proportion="8.142858">
+        <state line="25" column="31" selection-start="878" selection-end="878" vertical-scroll-proportion="0.7563694">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/collect.css">
+    <entry file="file://$PROJECT_DIR$/public/css/loginAndregister.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+        <state line="6" column="1" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/picUpload.ejs">
+    <entry file="file://$PROJECT_DIR$/conf/log4js.conf.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="20" selection-start="1051" selection-end="1051" vertical-scroll-proportion="-5.714286">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/page.js">
+    <entry file="file://$PROJECT_DIR$/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="54" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+        <state line="13" column="17" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/views/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="23" selection-end="23" vertical-scroll-proportion="-0.6785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/upyunWS.conf.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="46" selection-start="95" selection-end="95" vertical-scroll-proportion="0.104395606">
+        <state line="6" column="33" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="41" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0">
+        <state line="55" column="50" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/collect.ejs">
+    <entry file="file://$PROJECT_DIR$/routes/image.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="67" selection-start="381" selection-end="381" vertical-scroll-proportion="2.7142856">
+        <state line="38" column="34" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/collect.js">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="206" selection-end="206" vertical-scroll-proportion="0.104395606">
-          <folding>
-            <element signature="e#0#158#0" expanded="false" />
-          </folding>
+        <state line="8" column="26" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="34" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/errorCode.def.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="57" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/picUpload.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="70" selection-start="566" selection-end="566" vertical-scroll-proportion="-5.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/loginAndregister.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="75" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-0.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/loginAndregister.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="422" selection-end="422" vertical-scroll-proportion="-0.50708216">
+          <folding />
         </state>
       </provider>
     </entry>

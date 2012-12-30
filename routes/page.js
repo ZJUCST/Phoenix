@@ -9,6 +9,7 @@
 var errDef = require('./../conf/errorCode.def.json');
 
 exports.index = function(req, res) {
+    res.locals.user =  {name:'111',pic:"/img/logo.gif"};
     res.render('index', { title: 'Hello World',who:{name:'11',pic:"/img/logo.gif"}});
 }
 exports.picUpload = function(req, res) {
