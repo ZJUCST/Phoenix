@@ -9,3 +9,7 @@ exports.index = function(req, res){
 exports.loginAndregister = function(req, res){
     res.render('loginAndregister', { title: 'Express' });
 };
+
+exports.mainpage = function(req, res){
+    res.render('mainpage', { title: 'Express' });
+};

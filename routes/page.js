@@ -20,6 +20,10 @@ exports.loginAndregister = function(req, res) {
     res.render('loginAndregister', { title: 'Hello World', who: 'ssss' });
 }
 
+exports.mainpage = function(req, res) {
+    res.render('mainpage', { title: 'Hello World', who: 'ssss' });
+}
+
 exports.picCollect = function(req, res) {
     var from = req.query.from;
     var url = req.query.url;

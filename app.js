@@ -45,7 +45,7 @@ app.get('/', page.index);
 app.get('/upload', page.picUpload);
 app.get('/login', page.loginAndregister);
 app.get('/collect', page.picCollect);
-
+app.get('/mainpage', page.mainpage);
 
 /**
  * Add apis route here
