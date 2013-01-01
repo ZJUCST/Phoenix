@@ -1,0 +1,24 @@
+<% layout('layout') %>
+<% script('js/edit.js') -%>
+<% stylesheet('css/edit.css') -%>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+    </div>
+    <div class="span4 offset0.5">
+        <form action="" method="post" class="well well-large" id="form1">
+            <h2 class="form-signin-heading"> 编辑个人资料</h2>
+            <label>用户名</label>
+            <input type="text" name="username" class="input-block-level" id="username" placeholder="<%=who.name%>" required >
+            <span id="lengthmin"></span>
+            <label>密码</label>
+            <input type="password" class="input-block-level" id="input1" required>
+            <label>密码</label>
+            <input type="password" class="input-block-level" id="input2" placeholder="Please type again" required>
+            <span id="double"></span>
+            <label>Email</label>
+            <input name="email" id="email" class="input-block-level" type="email" placeholder="<%=who.email%>" required></br>
+            <button type="submit"  class="btn btn-large btn-primary" >保存</button>
+        </form>
+    </div>
+</div>
