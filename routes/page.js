@@ -6,11 +6,15 @@
  * To change this template use File | Settings | File Templates.
  */
 
+var imagebll = require('bll/imageBLL');
 var errDef = require('./../conf/errorCode.def.json');
 
 exports.index = function(req, res) {
-    res.locals.user =  {name:'111',pic:"/img/logo.gif"};
-    res.render('index', { title: 'Hello World',who:{name:'11',pic:"/img/logo.gif"}});
+    SLOG.trace("Receive get a page of image request from: ", req.headers['user-agent']);
+
+    imagebll.getImages(req, res, function(images) {
+        res.render('index', { title: 'Hello World',who:{name:'11',pic:"/img/logo.gif", images: images, pageNumber: req.query.p}});
+    });
 }
 exports.picUpload = function(req, res) {
     res.render('picUpload', { title: 'Hello World', who: 'ssss' });
