@@ -599,3 +599,28 @@ Error: no open connections
 [2012-12-29 18:01:17.859] [TRACE] server - Save image to db successfully.
 [2012-12-29 18:09:18.457] [ERROR] server - Get image collect page failed. 
 [2012-12-29 18:09:19.756] [ERROR] server - Get image collect page failed. 
+[2012-12-30 19:11:51.492] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:13:15.396] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+[2012-12-30 19:14:50.333] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+[2012-12-30 19:15:43.106] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:16:02.387] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+[2012-12-30 19:16:32.324] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+[2012-12-30 19:16:49.962] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:16:55.335] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+[2012-12-30 19:17:53.634] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:18:06.826] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+[2012-12-30 19:18:12.014] [TRACE] server - Upload image to upyun:  '%F$Q0GJOG%L2`7$2V~GF2HB.jpg'
+[2012-12-30 19:18:12.972] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 19:18:12.991] [TRACE] server - Save image to db successfully.
+[2012-12-30 19:18:46.196] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+[2012-12-30 19:18:46.199] [TRACE] server - Upload image to upyun:  'p_large_9TFK_5372000062dd2d0c[1].jpg'
+[2012-12-30 19:18:46.906] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 19:18:46.907] [TRACE] server - Save image to db successfully.
+[2012-12-30 19:18:56.608] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
+[2012-12-30 19:37:55.234] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:38:11.931] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'
+[2012-12-30 19:38:11.939] [INFO] server - Login attempt failed: username not found.
+[2012-12-30 19:38:23.064] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'
+[2012-12-30 19:38:23.066] [INFO] server - Login attempt failed: username not found.
+[2012-12-30 21:47:02.803] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:47:56.934] [INFO] server - Express server listening on port 3000

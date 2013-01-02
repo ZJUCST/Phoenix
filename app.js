@@ -26,7 +26,7 @@ app.configure(function(){
   app.set('view engine', 'ejs');
   app.use(express.favicon());
   app.use(express.logger('dev'));
-  app.use(express.bodyParser());
+  app.use(express.bodyParser({ keepExtensions: true}));
   app.use(express.methodOverride());
   app.use(express.cookieParser('your secret here'));
   app.use(express.session());
@@ -45,8 +45,8 @@ app.get('/', page.index);
 app.get('/upload', page.picUpload);
 app.get('/login', page.loginAndregister);
 app.get('/collect', page.picCollect);
-
-
+app.get('/mainpage', page.mainpage);
+app.get('/edit', page.edit);
 /**
  * Add apis route here
  */

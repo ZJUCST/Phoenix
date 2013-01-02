@@ -46,5 +46,17 @@
     "400004": {
         "errorCode": 400004,
         "message": "Parameter error: not enough parameters."
+    },
+    "400005": {
+        "errorCode": 400005,
+        "message": "Parameter error: next must be a string of 24 hex characters."
+    },
+    "400006": {
+        "errorCode": 400006,
+        "message": "Error: an image must be selected to upload."
+    },
+    "400007": {
+        "errorCode": 400007,
+        "message": "Error: It is not an image or the image is lost."
     }
 }

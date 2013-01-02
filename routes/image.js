@@ -10,6 +10,7 @@ var imagebll = require('bll/imageBLL');
 
 exports.upload = function(req, res) {
     SLOG.trace("Receive upload request from: ", req.headers['user-agent']);
+    req.session.user = {_id: 1, name: 'test'};
     if(req.session.user && req.files.image_upload) {
         imagebll.upload(req, res);
     } else {
@@ -31,11 +32,5 @@ exports.collect = function(req, res) {
 exports.getPage = function(req, res) {
     SLOG.trace("Receive get a page of image request from: ", req.headers['user-agent']);
 
-    imagebll.getImages(req, res, req.query.pre);
-    return;
-    if(req.query.pre) {
-        imagebll.getImages(req, res, req.query.pre);
-    } else {
-        res.send('Not Authorized', 403);
-    }
+    imagebll.getImages(req, res);
 }
