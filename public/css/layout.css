@@ -81,3 +81,6 @@
 .cl{
     clear:both;
 }
+.displayNone{display: none}
+.displayBlock{display: block}
+.displayInline{display: inline}
