@@ -33,6 +33,6 @@ exports.getPage = function(req, res) {
     SLOG.trace("Receive get a page of image request from: ", req.headers['user-agent']);
 
     imagebll.getImages(req, res, function(images) {
-        res.render(JSON.stringify(images));
+        res.send(JSON.stringify(images));
     });
 }
