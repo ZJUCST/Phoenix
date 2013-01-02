@@ -14,27 +14,18 @@
                 url:'/post/image',
                 secureuri:false,
                 fileElementId:'image_upload',
-                dataType: 'json',
                 data:{tags:$('#tags').val(), description:$('#description').val(),uri:getFileName($('#image_upload').val())},
                 success: function (data, status)
                 {
-                    if(typeof(data.error) != 'undefined')
-                    {
-                        if(data.error != '')
-                        {
-                            alert(data.error);
-                        }else
-                        {
-                            alert(data.msg);
-                        }
-                    }
+                    $("#uploadSuccess").show();
+                    setTimeout(function(){$.fancybox.close();},3000);
                 },
                 error: function (data, status, e)
                 {
                     alert(e);
                 }
             }
-        )
+        );
 
         return false;
 
