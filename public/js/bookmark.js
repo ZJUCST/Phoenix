@@ -1,10 +1,3 @@
-/**
- * Created with IntelliJ IDEA.
- * User: zhaoruihui
- * Date: 12-12-30
- * Time: 下午6:32
- * To change this template use File | Settings | File Templates.
- */
 var bodyCon=document.body.innerHTML;
 var pattern = /img[\w\W]*?src=['"]([\w\W]*?)['"]/gi;
 var needPattern = /.(jpg|gif|png|jpeg)$/i
@@ -27,7 +20,9 @@ for(k in list){
     if(!needPattern.test(picSrc))continue;
     image.src=picSrc;
     if(image.width<200)continue;
+    //the image margin-top,make it v-center
     imgMargin = (200-(200/image.width)*image.height)/2;
+    if(imgMargin<0)imgMargin=0;
     alertHtml+="<div style='float:left;height:200px;width:200px;background-color: #fff;border: solid #e7e7e7;border-width: 0 1px 1px 0;opacity: 1;'><img src='"+picSrc+"' onMouseOver='showSelector(this)'  style='margin-top:"+imgMargin+"px;width:auto !important;height:auto !important;max-height:200px;max-width:200px;'/></div>";
 }
 alertHtml+="<img id='cjbutton' src='http://localhost/yuanqun/src/img/cjbutton.gif' style='display:none;position:absolute;z-index=5;' onclick='caiji()'/>";
@@ -79,14 +74,14 @@ var  GetObjPos = function(ATarget) {
 function sAlert(contentId,strContent){
 
     var msgw,msgh,bordercolor;
-    msgw=document.body.clientWidth;//提示窗口的宽度
-    msgh=30;//提示窗口的高度
-    titleheight=25 //提示窗口标题高度
-    bordercolor="#336699";//提示窗口的边框颜色;
+    msgw=document.body.clientWidth*0.997;//提示窗口的宽度 
+    msgh=30;//提示窗口的高度 
+    titleheight=25 //提示窗口标题高度 
+    bordercolor="#336699";//提示窗口的边框颜色; 
     titlecolor="#99CCFF";//提示窗口的标题颜色
     var sWidth,sHeight;
-    sWidth=document.body.offsetWidth; //背景遮罩层宽
-    sHeight=document.body.offsetHeight*2; //背景遮罩层高度
+    sWidth=document.body.clientWidth*0.997; //背景遮罩层宽
+    sHeight=document.body.clientHeight*2; //背景遮罩层高度
     var bgObj=document.createElement("div");
     bgObj.setAttribute('id','bgDiv');
     bgObj.style.position="absolute";
@@ -152,4 +147,4 @@ function sAlert(contentId,strContent){
     //重新设置背景高度
     var bgObj2 = document.getElementById("bgDiv");
     if(bgObj2.style.height<document.getElementById(contentId).offsetHeight)bgObj2.style.height=document.getElementById(contentId).offsetHeight + "px";
-}
+} 
