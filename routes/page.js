@@ -25,10 +25,12 @@ exports.loginAndregister = function(req, res) {
 }
 
 exports.edit = function(req, res) {
-    res.render('edit', { title: 'Hello World',who:{name:'lee',email:'litao6550652.com'} });
+    res.render('edit', { title: 'Hello World',who:{name:'lee',"email":"litao6550652.com"} });
 }
 exports.mainpage = function(req, res) {
-    res.render('mainpage', { title: 'Hello World', who: 'ssss' });
+    res.render('mainpage', { title: 'Hello World', who:{uid:1,"uname":"test","orgin":"p_large_p5Bl_1e2100026ab52d0f[1].jpg",
+        "from":"","tags":"","description":" ","isPending":false,"createTime":"2013-01-02T06:20:09.880Z",url:"http://peacock.b0.upaiyun.com/90c044094d9b45efbe62efb8a812fb9d.jpg",
+        "_id":"50e3d19ff2d865d007000002"}});
 }
 
 exports.picCollect = function(req, res) {
