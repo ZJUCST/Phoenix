@@ -1,0 +1,12 @@
+<% layout('layout') %>
+<% script('js/error.js') -%>
+<% stylesheet('css/error.css') -%>
+<div id="errormain">
+    <div class="row">
+      <div id="errorContent" class="span4 offset5"><%=errorContent%></div>
+    </div>
+    <div class="row">
+        <div id="errorRedirect" class="span4 offset5">3秒后页面自动跳转</div>
+        <input type="hidden" id="redirectUrl" value="<%=redirectUrl%>">
+    </div>
+</div>

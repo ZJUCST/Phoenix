@@ -47,6 +47,7 @@ app.get('/login', page.loginAndregister);
 app.get('/collect', page.picCollect);
 app.get('/mainpage', page.mainpage);
 app.get('/edit', page.edit);
+app.get('/error', page.error);
 /**
  * Add apis route here
  */

@@ -12,7 +12,9 @@ exports.upload = function(req, res) {
     SLOG.trace("Receive upload request from: ", req.headers['user-agent']);
     req.session.user = {_id: 1, name: 'test'};
     if(req.session.user && req.files.image_upload) {
-        imagebll.upload(req, res);
+        imagebll.upload(req, res, function(images) {
+            res.render(JSON.stringify(images));
+        });
     } else {
         res.send('Not Authorized', 403);
     }

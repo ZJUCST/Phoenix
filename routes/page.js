@@ -44,3 +44,8 @@ exports.picCollect = function(req, res) {
         res.send(errDef[400004], 401);
     }
 }
+exports.error = function(req, res) {
+    var errorContent = req.query.errorContent;
+    var redirectUrl =  req.query.redirectUrl;
+    res.render('error', { errorContent:errorContent,who:{name:'lee',email:'litao6550652.com'},redirectUrl: redirectUrl});
+}
