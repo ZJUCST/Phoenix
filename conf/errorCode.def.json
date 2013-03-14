@@ -58,5 +58,9 @@
     "400007": {
         "errorCode": 400007,
         "message": "Error: It is not an image or the image is lost."
+    },
+    "400008": {
+        "errorCode": 400008,
+        "message": "Parameter error: id must be a string of 24 hex characters."
     }
 }
