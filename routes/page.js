@@ -52,7 +52,7 @@ exports.error = function(req, res) {
 exports.picShow = function(req, res) {
     if(req.query.id) {
         imagebll.getImageById(req.query.id, res, function(image) {
-            res.render('picShow', { title: 'Hello World',who:{name:'11',pic:"/img/logo.gif",image:image}});
+            res.render('picShow', { title: 'Hello World',who:{name:'11',pic:"/img/logo.gif"},image:image});
         })
 
     } else {

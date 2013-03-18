@@ -2,9 +2,10 @@
 .middlebg{width: 625px;background-image: url("../img/picShow_bg_middle.gif"); background-repeat: repeat-y;position: relative;}
 .bottombg{width: 625px;height: 25px;background-image: url("../img/picShow_bg.gif");background-position: 0 -38px;}
 .picShowWrap{}
-.mainimg{padding:30px 30px;}
-
-
+.mainimg{padding:25px 0px;text-align:center;}
+.tags{margin:0 0 0 30px;}
+.uname{position: absolute;right:40px;}
+.description{margin: 0 0 0 30px;font-size: 20px;}
 .share {
     position: absolute;
     right: 20px;

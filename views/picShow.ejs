@@ -1,12 +1,16 @@
 <% layout('layout') %>
 <% script('js/pickShow.js') -%>
 <% stylesheet('css/pickShow.css') -%>
-<div class="row">
+<div class="row" xmlns="http://www.w3.org/1999/html">
     <div class="span4 offset3">
         <div class="picShowWrap">
             <div class="topbg"></div>
             <div class="middlebg">
-                <div class="mainimg"><img src=" <%=who.image%>" /></div>
+                <div class="description"><%=image.description%></div>
+                <div><a href="#" class="uname"><%=image.uname%></a></div>
+                <div class="mainimg"><a href="<%=image.from%>"><img src=" <%=image.url%>" /></a></div>
+                <div><a href="#" class="tags"><%=image.tags%></a></div>
+
                 <div class="share">
                     <!-- Baidu Button BEGIN -->
                     <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
