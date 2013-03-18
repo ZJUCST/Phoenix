@@ -49,3 +49,8 @@ exports.error = function(req, res) {
     var redirectUrl =  req.query.redirectUrl;
     res.render('error', { errorContent:errorContent,who:{name:'lee',email:'litao6550652.com'},redirectUrl: redirectUrl});
 }
+exports.picShow = function(req, res) {
+
+        res.render('picShow', { title: 'Hello World',who:{name:'11',pic:"/img/logo.gif",image:"/img/testShow.jpg"}});
+
+}

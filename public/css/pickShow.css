@@ -1,0 +1,12 @@
+.topbg{width: 625px;height: 25px;background-image: url("../img/picShow_bg.gif");}
+.middlebg{width: 625px;background-image: url("../img/picShow_bg_middle.gif"); background-repeat: repeat-y;position: relative;}
+.bottombg{width: 625px;height: 25px;background-image: url("../img/picShow_bg.gif");background-position: 0 -38px;}
+.picShowWrap{}
+.mainimg{padding:30px 30px;}
+
+
+.share {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
