@@ -42,3 +42,19 @@
 [2013-03-19 00:36:54.812] [TRACE] server - Save image to db successfully.
 [2013-03-19 00:38:01.635] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
 [2013-03-19 00:38:01.647] [TRACE] server - Upload image to upyun:  '4.jpg'
+[2013-03-19 01:49:59.226] [INFO] server - Express server listening on port 3000
+[2013-03-19 01:50:00.331] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-19 01:50:01.674] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-19 01:50:01.675] [TRACE] server - Upload image to upyun:  'http://pic7.nipic.com/20100610/4839850_084021639476_2.jpg'
+[2013-03-19 01:50:31.328] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-19 01:50:31.332] [TRACE] server - Upload image to upyun:  '4.jpg'
+[2013-03-19 01:51:02.114] [TRACE] server - Upload image to upyun:  'http://pic7.nipic.com/20100610/4839850_084021639476_2.jpg'
+[2013-03-19 01:51:33.036] [TRACE] server - Upload image to upyun:  '4.jpg'
+[2013-03-19 01:52:34.693] [TRACE] server - Upload image to upyun:  '4.jpg'
+[2013-03-19 01:58:13.202] [INFO] server - Express server listening on port 3000
+[2013-03-19 01:58:32.062] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-19 01:58:32.063] [TRACE] server - Upload image to upyun:  'http://pic7.nipic.com/20100610/4839850_084021639476_2.jpg'
+[2013-03-19 01:58:34.974] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-19 01:58:34.975] [TRACE] server - Upload image to upyun:  'http://pic7.nipic.com/20100610/4839850_084021639476_2.jpg'
+[2013-03-19 01:58:36.322] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-19 01:58:36.323] [TRACE] server - Upload image to upyun:  'http://pic7.nipic.com/20100610/4839850_084021639476_2.jpg'
