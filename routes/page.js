@@ -50,7 +50,13 @@ exports.error = function(req, res) {
     res.render('error', { errorContent:errorContent,who:{name:'lee',email:'litao6550652.com'},redirectUrl: redirectUrl});
 }
 exports.picShow = function(req, res) {
+    if(req.query.id) {
+        imagebll.getImageById(req.query.id, res, function(image) {
+            res.render('picShow', { title: 'Hello World',who:{name:'11',pic:"/img/logo.gif",image:image}});
+        })
 
-        res.render('picShow', { title: 'Hello World',who:{name:'11',pic:"/img/logo.gif",image:"/img/testShow.jpg"}});
-
+    } else {
+        SLOG.error("Get Image By Id failed: lack of id parameter.");
+        res.send(errDef[400008], 401);
+    }
 }

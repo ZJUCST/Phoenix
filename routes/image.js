@@ -40,7 +40,11 @@ exports.getPage = function(req, res) {
 exports.getImageById = function(req, res) {
     SLOG.trace("Receive a get image by id request from: ", req.headers['user-agent']);
 
-    imagebll.getImageById(req.query.id, res, function(image) {
-        res.send(JSON.stringify(image));
-    });
+    if(req.query.id) {
+        imagebll.getImageById(req.query.id, res, function(image) {
+            res.send(JSON.stringify(image));
+        });
+    } else {
+        res.send('ID parameter is required.', 403);
+    }
 }

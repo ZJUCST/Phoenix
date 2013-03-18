@@ -1,9 +1,7 @@
 {
     "appenders":[
         {
-            "type":"console",
-            "filename":"logs/console.log",
-            "pattern": "-yyyy-MM-dd"
+            "type":"console"
         },
         {
             "type":"dateFile",

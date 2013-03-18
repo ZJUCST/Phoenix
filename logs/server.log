@@ -599,28 +599,534 @@ Error: no open connections
 [2012-12-29 18:01:17.859] [TRACE] server - Save image to db successfully.
 [2012-12-29 18:09:18.457] [ERROR] server - Get image collect page failed. 
 [2012-12-29 18:09:19.756] [ERROR] server - Get image collect page failed. 
-[2012-12-30 19:11:51.492] [INFO] server - Express server listening on port 3000
-[2012-12-30 19:13:15.396] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
-[2012-12-30 19:14:50.333] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
-[2012-12-30 19:15:43.106] [INFO] server - Express server listening on port 3000
-[2012-12-30 19:16:02.387] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
-[2012-12-30 19:16:32.324] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
-[2012-12-30 19:16:49.962] [INFO] server - Express server listening on port 3000
-[2012-12-30 19:16:55.335] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
-[2012-12-30 19:17:53.634] [INFO] server - Express server listening on port 3000
-[2012-12-30 19:18:06.826] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
-[2012-12-30 19:18:12.014] [TRACE] server - Upload image to upyun:  '%F$Q0GJOG%L2`7$2V~GF2HB.jpg'
-[2012-12-30 19:18:12.972] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:134:11)'
-[2012-12-30 19:18:12.991] [TRACE] server - Save image to db successfully.
-[2012-12-30 19:18:46.196] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
-[2012-12-30 19:18:46.199] [TRACE] server - Upload image to upyun:  'p_large_9TFK_5372000062dd2d0c[1].jpg'
-[2012-12-30 19:18:46.906] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:134:11)'
-[2012-12-30 19:18:46.907] [TRACE] server - Save image to db successfully.
-[2012-12-30 19:18:56.608] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
-[2012-12-30 19:37:55.234] [INFO] server - Express server listening on port 3000
-[2012-12-30 19:38:11.931] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'
-[2012-12-30 19:38:11.939] [INFO] server - Login attempt failed: username not found.
-[2012-12-30 19:38:23.064] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'
-[2012-12-30 19:38:23.066] [INFO] server - Login attempt failed: username not found.
-[2012-12-30 21:47:02.803] [INFO] server - Express server listening on port 3000
-[2012-12-30 21:47:56.934] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:25:55.428] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:26:30.118] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:26:56.140] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:27:02.311] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:27:02.312] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 19:27:03.586] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 19:27:03.590] [TRACE] server - Save image to db successfully.
+[2012-12-30 19:27:48.867] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:27:48.868] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 19:29:34.408] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:29:42.894] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:29:42.896] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 19:29:44.149] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 19:29:44.154] [TRACE] server - Save image to db successfully.
+[2012-12-30 19:30:12.386] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:30:12.387] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 19:30:13.538] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 19:30:13.539] [TRACE] server - Save image to db successfully.
+[2012-12-30 19:30:48.988] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:30:57.342] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:30:57.345] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 19:32:20.366] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:32:24.305] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:32:24.308] [TRACE] server - Upload image to upyun:  ''
+[2012-12-30 19:32:36.695] [TRACE] server - Upload image to upyun:  ''
+[2012-12-30 19:32:45.091] [TRACE] server - Upload image to upyun:  ''
+[2012-12-30 19:32:47.138] [TRACE] server - Upload image to upyun:  ''
+[2012-12-30 19:32:50.619] [TRACE] server - Upload image to upyun:  ''
+[2012-12-30 19:32:51.540] [TRACE] server - Upload image to upyun:  ''
+[2012-12-30 19:32:52.462] [TRACE] server - Upload image to upyun:  ''
+[2012-12-30 19:32:53.281] [TRACE] server - Upload image to upyun:  ''
+[2012-12-30 19:32:54.203] [TRACE] server - Upload image to upyun:  ''
+[2012-12-30 19:32:55.022] [TRACE] server - Upload image to upyun:  ''
+[2012-12-30 19:32:55.841] [ERROR] server - Upload to upyun failed:  ''
+[2012-12-30 19:32:55.845] [TRACE] server - Save image to db successfully.
+[2012-12-30 19:37:33.808] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:37:43.304] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:37:43.307] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 19:37:44.509] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 19:37:44.516] [TRACE] server - Save image to db successfully.
+[2012-12-30 19:39:10.277] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:39:17.801] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:39:17.803] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 19:39:17.823] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:37:41)\n    at Request.init.self.callback (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:96:17)\n    at Request.init (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:170:10)\n    at new Request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:105:8)\n    at request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:995:11)\n    at exports.upload (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:36:13)\n    at callbacks (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:160:37)\n    at param (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 19:39:17.829] [TRACE] server - Save image to db successfully.
+[2012-12-30 19:39:55.726] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:39:55.729] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 19:40:21.805] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:37:41)\n    at Request.init.self.callback (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:96:17)\n    at Request.init (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:170:10)\n    at new Request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:105:8)\n    at request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:995:11)\n    at exports.upload (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:36:13)\n    at callbacks (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:160:37)\n    at param (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 19:40:21.807] [TRACE] server - Save image to db successfully.
+[2012-12-30 19:41:13.333] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:41:24.727] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:41:24.730] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 19:46:44.602] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:46:55.140] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:48:10.227] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:48:22.346] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:52:30.764] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:52:39.561] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:52:39.563] [ERROR] server - Upload image error - cannot find image file: null
+[2012-12-30 19:53:01.298] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:57:49.757] [INFO] server - Express server listening on port 3000
+[2012-12-30 19:57:56.169] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 19:57:56.171] [ERROR] server - Upload image error - cannot find image file: null
+[2012-12-30 20:05:22.644] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:06:15.563] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:06:24.079] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:06:24.081] [ERROR] server - Upload image error - cannot find image file: null
+[2012-12-30 20:07:13.468] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:13:05.679] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:13:20.867] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:13:41.486] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:13:47.710] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:13:47.718] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 20:14:32.410] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:14:36.722] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:14:36.725] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 20:15:41.033] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:15:47.305] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:15:47.306] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 20:15:48.539] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 20:15:48.543] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:16:21.703] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:16:26.990] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:16:26.991] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 20:17:04.185] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:17:05.701] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:17:05.704] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 20:17:25.825] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:17:30.433] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:17:30.435] [TRACE] server - Upload image to upyun:  'xppfur.png'
+[2012-12-30 20:18:28.795] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:37:41)\n    at Request.init.self.callback (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:88:17)\n    at Request.init (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:170:10)\n    at new Request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:105:8)\n    at request (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/request/main.js:995:11)\n    at exports.upload (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/routes/index.js:36:13)\n    at callbacks (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:160:37)\n    at param (/var/vcap/data/dea/apps/upyun-0-2d3752119de295d56697c7581527200b/app/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 20:18:28.801] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:18:44.910] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:19:15.048] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:19:15.050] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 20:19:15.057] [ERROR] server - Upload to upyun error:  { [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+Error: connect ECONNREFUSED
+    at errnoException (net.js:770:11)
+    at Object.afterConnect [as oncomplete] (net.js:761:19)
+[2012-12-30 20:19:15.063] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:20:10.040] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:20:10.041] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:22:53.725] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:37:41)\n    at Request.init.self.callback (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:96:17)\n    at Request.init (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:170:10)\n    at new Request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:105:8)\n    at request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:995:11)\n    at exports.upload (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:36:13)\n    at callbacks (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:160:37)\n    at param (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 20:22:53.726] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:24:45.199] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:25:01.763] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:25:01.765] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:27:01.834] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 20:27:01.844] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:27:07.751] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:27:15.740] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:27:15.742] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:34:05.172] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:34:49.319] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:34:49.321] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:34:49.338] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = START_BOUNDARY\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2012-12-30 20:34:49.346] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:44:45.991] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:44:54.216] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:44:54.240] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:46:54.248] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 20:46:54.258] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:50:07.278] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:50:17.566] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:50:17.567] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:50:17.585] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:37:41)\n    at Request.init.self.callback (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:96:17)\n    at Request.init (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:170:10)\n    at new Request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:105:8)\n    at request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:995:11)\n    at exports.upload (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:36:13)\n    at callbacks (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:160:37)\n    at param (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 20:50:17.590] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:51:04.876] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:51:04.877] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:53:44.625] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 20:53:44.628] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:54:24.190] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:54:24.191] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:54:24.211] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:38:41)\n    at Request.init.self.callback (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:96:17)\n    at Request.init (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:170:10)\n    at new Request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:105:8)\n    at request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:995:11)\n    at exports.upload (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:37:13)\n    at callbacks (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:160:37)\n    at param (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 20:54:24.212] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:55:31.236] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:55:31.236] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:55:31.254] [TRACE] server - Uploaded:  'Error: First argument needs to be a number, array or string.\n    at new Buffer (buffer.js:236:15)\n    at Request.exports.upload [as _callback] (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:38:41)\n    at Request.init.self.callback (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:122:22)\n    at Request.EventEmitter.emit (events.js:96:17)\n    at Request.init (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:170:10)\n    at new Request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:105:8)\n    at request (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/request/main.js:995:11)\n    at exports.upload (/Users/zmzsmnh/IdeaProjects/YupooWS/routes/index.js:37:13)\n    at callbacks (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:160:37)\n    at param (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/lib/router/index.js:134:11)'
+[2012-12-30 20:55:31.254] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:56:12.189] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:56:21.019] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:56:21.020] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:57:32.245] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:57:32.246] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 20:58:21.027] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 20:58:21.033] [TRACE] server - Save image to db successfully.
+[2012-12-30 20:58:46.914] [INFO] server - Express server listening on port 3000
+[2012-12-30 20:58:53.377] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 20:58:53.378] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:00:35.698] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 21:00:35.705] [TRACE] server - Save image to db successfully.
+[2012-12-30 21:00:42.075] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:00:42.076] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:02:42.083] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 21:02:42.087] [TRACE] server - Save image to db successfully.
+[2012-12-30 21:07:53.686] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:07:53.687] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:09:36.160] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:09:44.586] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:09:44.587] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:10:19.061] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:10:19.063] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2012-12-30 21:11:14.801] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 21:11:14.807] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 21:11:14.811] [TRACE] server - Save image to db successfully.
+[2012-12-30 21:11:14.812] [TRACE] server - Save image to db successfully.
+[2012-12-30 21:11:32.265] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:11:32.266] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:13:32.277] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 21:13:32.279] [TRACE] server - Save image to db successfully.
+[2012-12-30 21:19:24.865] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:19:24.866] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:21:46.140] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:22:01.740] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:22:01.741] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:22:59.741] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:23:34.391] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:23:43.137] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:23:43.138] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:24:56.136] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:25:08.939] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:25:08.943] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:29:27.943] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:30:13.053] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:30:13.055] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:31:35.016] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 21:31:35.024] [TRACE] server - Save image to db successfully.
+[2012-12-30 21:31:53.045] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:31:53.046] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:33:53.054] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 21:33:53.057] [TRACE] server - Save image to db successfully.
+[2012-12-30 21:34:05.653] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:34:05.654] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:50:30.802] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:50:44.838] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:50:44.839] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:51:18.891] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:51:32.002] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:51:32.003] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:29.926] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketCloseListener (http.js:1315:23)
+    at Socket.EventEmitter.emit (events.js:126:20)
+    at Socket._destroy.destroyed (net.js:358:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2012-12-30 21:52:29.935] [TRACE] server - Save image to db successfully.
+[2012-12-30 21:52:35.843] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:52:38.944] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:52:38.945] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:38.963] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:38.980] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:39.000] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:39.012] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:39.020] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:39.029] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:39.038] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:39.045] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:39.054] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:52:39.064] [ERROR] server - Upload to upyun failed:  'sina.png'
+[2012-12-30 21:52:39.069] [TRACE] server - Save image to db successfully.
+[2012-12-30 21:53:27.751] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:53:33.856] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:53:33.857] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:54:46.648] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:54:52.762] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:54:52.763] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 21:56:52.775] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 21:56:52.784] [TRACE] server - Save image to db successfully.
+[2012-12-30 21:58:40.890] [INFO] server - Express server listening on port 3000
+[2012-12-30 21:58:46.477] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 21:58:46.478] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 22:00:46.489] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 22:00:46.496] [TRACE] server - Save image to db successfully.
+[2012-12-30 22:01:38.654] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 22:01:38.655] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 22:03:26.527] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 22:03:26.528] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 22:03:38.663] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 22:03:38.664] [TRACE] server - Save image to db successfully.
+[2012-12-30 22:05:03.606] [INFO] server - Express server listening on port 3000
+[2012-12-30 22:05:11.611] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2012-12-30 22:05:11.612] [TRACE] server - Upload image to upyun:  'sina.png'
+[2012-12-30 22:07:11.624] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2012-12-30 22:07:11.633] [TRACE] server - Save image to db successfully.
+[2013-01-01 22:54:28.753] [INFO] server - Express server listening on port 3000
+[2013-01-01 22:55:31.175] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 22:55:31.176] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 22:55:58.901] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 22:55:58.902] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:04:01.948] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-01-01 23:04:01.954] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-01-01 23:04:01.962] [TRACE] server - Save image to db successfully.
+[2013-01-01 23:04:01.963] [TRACE] server - Save image to db successfully.
+[2013-01-01 23:04:20.496] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 23:04:20.497] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:15:21.823] [INFO] server - Express server listening on port 3000
+[2013-01-01 23:15:32.491] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 23:15:32.492] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:28:20.722] [INFO] server - Express server listening on port 3000
+[2013-01-01 23:28:33.732] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 23:28:33.734] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:42:17.060] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-01-01 23:42:17.069] [TRACE] server - Save image to db successfully.
+[2013-01-01 23:42:36.843] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 23:42:36.844] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:43:40.321] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 23:43:40.322] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:48:57.341] [INFO] server - Express server listening on port 3000
+[2013-01-01 23:49:04.625] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 23:49:04.626] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:51:23.297] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-01-01 23:51:23.308] [TRACE] server - Save image to db successfully.
+[2013-01-01 23:51:54.088] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 23:51:54.089] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:51:54.218] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/ac752ced61604de8900847a9855e7beb.png'
+[2013-01-01 23:51:54.219] [TRACE] server - Save image to db successfully.
+[2013-01-01 23:52:28.314] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 23:52:28.314] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:54:09.191] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/bac1e82392694aa1bbae3868fd7f06a6.png'
+[2013-01-01 23:54:09.192] [TRACE] server - Save image to db successfully.
+[2013-01-01 23:54:38.922] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 23:54:38.923] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:55:42.534] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/3e037a78d94642c6854aa721130a1236.png'
+[2013-01-01 23:55:42.535] [TRACE] server - Save image to db successfully.
+[2013-01-01 23:56:49.854] [INFO] server - Express server listening on port 3000
+[2013-01-01 23:56:57.748] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-01 23:56:57.750] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-01 23:56:57.863] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/d2b1ad49147b4e7387244409c46bd2bc.png'
+[2013-01-01 23:56:57.868] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:04:20.176] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:05:10.582] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:05:10.583] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:05:11.617] [TRACE] server - Uploaded:  '<html>\r\n<head><title>411 Length Required</title></head>\r\n<body bgcolor="white">\r\n<center><h1>411 Length Required</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+[2013-01-02 00:05:11.622] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:06:41.664] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:06:47.623] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:06:47.737] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:07:36.256] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/9ed5a950be5847f0a1574bd60e8c808c.png'
+[2013-01-02 00:07:36.263] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:07:55.937] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:07:58.898] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:07:58.904] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:07:59.351] [TRACE] server - Uploaded:  '<html>\r\n<head><title>411 Length Required</title></head>\r\n<body bgcolor="white">\r\n<center><h1>411 Length Required</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+[2013-01-02 00:07:59.355] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:16:35.443] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:16:45.220] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:16:45.221] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:16:46.313] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = START\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-8509c0605aafb68b4de464e7321780e6/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-8509c0605aafb68b4de464e7321780e6/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-01-02 00:16:46.318] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:20:03.207] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:20:09.839] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:20:09.841] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:20:10.279] [TRACE] server - Uploaded:  '<h2>Client sent a bad request.</h2>\n'
+[2013-01-02 00:20:10.283] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:32:44.775] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:32:53.824] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:32:53.825] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:32:54.832] [TRACE] server - Uploaded:  '<html>\r\n<head><title>411 Length Required</title></head>\r\n<body bgcolor="white">\r\n<center><h1>411 Length Required</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+[2013-01-02 00:32:54.836] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:35:12.297] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:35:21.089] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:35:21.090] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:35:21.526] [TRACE] server - Uploaded:  '<html>\r\n<head><title>411 Length Required</title></head>\r\n<body bgcolor="white">\r\n<center><h1>411 Length Required</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+[2013-01-02 00:35:21.531] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:39:36.483] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:42:17.500] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:42:17.502] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:42:18.498] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:42:18.933] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:42:19.367] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:42:19.801] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:42:20.235] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:42:20.667] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:42:21.100] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:42:21.532] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:42:22.057] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:42:22.500] [ERROR] server - Upload to upyun failed:  'sina.png'
+[2013-01-02 00:42:22.505] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:43:38.144] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:43:41.611] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:43:41.612] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:43:42.266] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:43:42.918] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:43:43.569] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:43:44.216] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:43:44.864] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:43:45.511] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:43:46.161] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:43:46.815] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:43:47.468] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:43:48.115] [ERROR] server - Upload to upyun failed:  'sina.png'
+[2013-01-02 00:43:48.121] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:47:17.298] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:47:28.194] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:47:28.196] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:47:29.199] [TRACE] server - Uploaded:  '<html>\r\n<head><title>411 Length Required</title></head>\r\n<body bgcolor="white">\r\n<center><h1>411 Length Required</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+[2013-01-02 00:47:29.203] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:47:58.485] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:48:02.910] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:48:02.911] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:48:03.808] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-8509c0605aafb68b4de464e7321780e6/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-8509c0605aafb68b4de464e7321780e6/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-01-02 00:48:03.814] [TRACE] server - Save image to db successfully.
+[2013-01-02 00:50:19.966] [INFO] server - Express server listening on port 3000
+[2013-01-02 00:50:25.657] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 00:50:25.658] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 00:50:27.114] [TRACE] server - Uploaded:  '<html>\r\n<head><title>411 Length Required</title></head>\r\n<body bgcolor="white">\r\n<center><h1>411 Length Required</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+[2013-01-02 00:50:27.121] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:03:41.871] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:03:53.452] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:03:53.454] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:03:54.110] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = START\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-413b273df99866f73e175a73ab2b326b/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-413b273df99866f73e175a73ab2b326b/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-01-02 01:03:54.123] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:10:03.781] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:10:08.845] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:10:08.847] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:10:51.012] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = START\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2013-01-02 01:10:51.018] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:11:22.535] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:12:09.711] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:12:09.712] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:13:59.147] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-01-02 01:13:59.157] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:14:07.713] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:14:07.714] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:14:07.728] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = START\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2013-01-02 01:14:07.729] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:18:53.814] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:18:53.815] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:18:53.837] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = START\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:103:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2013-01-02 01:18:53.838] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:19:14.877] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:19:14.941] [TRACE] server - Upload image to upyun:  'Kenny.png'
+[2013-01-02 01:21:22.153] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = START\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:103:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2013-01-02 01:21:22.154] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:21:32.684] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:21:32.685] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:26:23.338] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-01-02 01:26:23.340] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:28:46.598] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:29:29.737] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:29:36.948] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:29:36.950] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:31:05.503] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-01-02 01:31:05.511] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:31:40.331] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:31:40.332] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:33:37.662] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:33:55.906] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:33:55.907] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:36:12.894] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:36:18.121] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:36:18.122] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:36:52.269] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:36:59.006] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:36:59.008] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:37:01.457] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/ea4280af4c964eff910c27a89c861a29.png'
+[2013-01-02 01:37:01.461] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:38:58.691] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:39:04.057] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:39:04.068] [TRACE] server - Upload image to upyun:  'Kenny.png'
+[2013-01-02 01:39:15.111] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/31572d14074246c3961115573972b299.png'
+[2013-01-02 01:39:15.117] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:42:36.899] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:44:03.898] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:44:20.596] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:44:20.598] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:44:22.807] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/f5f974cf0a974825833dff2b7ccc45cd.png'
+[2013-01-02 01:44:22.811] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:50:07.356] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:51:00.931] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:51:00.933] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:51:03.893] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/f41ead3032414facbe1aeaed268a6def.png'
+[2013-01-02 01:51:03.899] [TRACE] server - Save image to db successfully.
+[2013-01-02 01:52:35.587] [INFO] server - Express server listening on port 3000
+[2013-01-02 01:52:43.245] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11'
+[2013-01-02 01:52:43.246] [TRACE] server - Upload image to upyun:  'sina.png'
+[2013-01-02 01:52:45.193] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/4f21eb61f8c94419b15633648893ffb4.png'
+[2013-01-02 01:52:45.197] [TRACE] server - Save image to db successfully.
+[2013-01-02 14:13:23.016] [INFO] server - Express server listening on port 3000
