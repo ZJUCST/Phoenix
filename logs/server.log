@@ -1130,3 +1130,191 @@ Error: socket hang up
 [2013-01-02 01:52:45.193] [TRACE] server - Uploaded:  'peacock.b0.upaiyun.com/4f21eb61f8c94419b15633648893ffb4.png'
 [2013-01-02 01:52:45.197] [TRACE] server - Save image to db successfully.
 [2013-01-02 14:13:23.016] [INFO] server - Express server listening on port 3000
+[2013-03-18 21:54:57.459] [INFO] server - Express server listening on port 3000
+[2013-03-18 21:55:02.746] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-18 21:55:02.762] [ERROR] server - Get images error:  [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/mongoskin/node_modules/mongodb/lib/mongodb/connection/server.js:482:73)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/mongoskin/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/mongoskin/node_modules/mongodb/lib/mongodb/connection/connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2013-03-18 21:56:49.454] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-18 21:57:09.328] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-18 21:57:29.641] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-18 21:57:29.642] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-18 21:57:51.432] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-18 21:57:51.476] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-18 21:58:05.130] [TRACE] server - Uploaded:  '404 Not Found\n'
+[2013-03-18 21:58:05.131] [TRACE] server - Save image to db successfully.
+[2013-03-18 21:58:07.119] [TRACE] server - Receive a get image by id request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-18 21:58:28.096] [ERROR] server - Get Image By Id failed: lack of id parameter.
+[2013-03-18 21:58:44.082] [TRACE] server - Uploaded:  '<html>\r\n<head><title>404 Not Found</title></head>\r\n<body bgcolor="white">\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
+[2013-03-18 21:58:44.083] [TRACE] server - Save image to db successfully.
+[2013-03-18 22:13:58.501] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-18 22:13:58.502] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-18 22:14:04.458] [TRACE] server - Uploaded:  '404 Not Found\n'
+[2013-03-18 22:14:04.530] [TRACE] server - Save image to db successfully.
+[2013-03-18 22:17:19.644] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-18 22:17:19.682] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-18 22:17:54.603] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/1515ad438ef74be08360b0e9b0ac6f55.jpg'
+[2013-03-18 22:17:54.685] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:45:52.538] [INFO] server - Express server listening on port 3000
+[2013-03-19 00:46:01.795] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:46:10.052] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:46:10.053] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:46:13.199] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-709d45a6138d8e08c97263f665789e9d/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-709d45a6138d8e08c97263f665789e9d/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:46:13.199] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:48:22.834] [INFO] server - Express server listening on port 3000
+[2013-03-19 00:48:30.974] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:48:30.975] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:48:32.417] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-709d45a6138d8e08c97263f665789e9d/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-709d45a6138d8e08c97263f665789e9d/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:48:32.421] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:49:01.184] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:49:01.185] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:49:02.687] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:49:02.688] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:49:49.050] [INFO] server - Express server listening on port 3000
+[2013-03-19 00:50:17.334] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:50:17.335] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 00:50:20.213] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/add6cee4cd2f45d8a081b4d6533169a7.jpg'
+[2013-03-19 00:50:20.220] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:50:32.569] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:50:32.587] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:50:34.155] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:50:34.156] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:51:30.113] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:51:30.114] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:51:31.597] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:51:31.597] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:51:50.704] [INFO] server - Express server listening on port 3000
+[2013-03-19 00:51:58.505] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:51:58.506] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:51:59.953] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:51:59.957] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:52:32.031] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:52:32.032] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:52:33.473] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:52:33.474] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:53:16.998] [INFO] server - Express server listening on port 3000
+[2013-03-19 00:53:24.438] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:53:24.439] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:53:25.884] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:53:25.890] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:53:38.905] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:53:38.913] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:53:40.694] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:53:40.695] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:54:29.193] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:54:29.194] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:55:21.589] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/var/vcap/data/dea/apps/upyun-0-b9068d4bb3f22457345cbd5d897aa861/app/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:85:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1682:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:55:21.590] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:57:49.352] [INFO] server - Express server listening on port 3000
+[2013-03-19 00:57:57.029] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:57:57.030] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:58:01.510] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:58:01.593] [TRACE] server - Save image to db successfully.
+[2013-03-19 00:59:20.530] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 00:59:20.532] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 00:59:20.550] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 00:59:20.551] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:01:58.451] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:01:58.453] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:03:39.643] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:03:39.645] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:04:15.908] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-03-19 01:04:15.911] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:04:15.912] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketCloseListener (http.js:1315:23)
+    at Socket.EventEmitter.emit (events.js:126:20)
+    at Socket._destroy.destroyed (net.js:358:10)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2013-03-19 01:04:15.914] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:04:26.686] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:04:26.687] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:05:05.323] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 01:05:05.324] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:05:42.972] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:05:42.973] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:06:27.589] [INFO] server - Express server listening on port 3000
+[2013-03-19 01:06:34.249] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:06:34.251] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:07:12.026] [INFO] server - Express server listening on port 3000
+[2013-03-19 01:07:18.623] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:07:18.624] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:07:48.082] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 01:07:48.089] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:08:43.809] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:08:43.810] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:13:51.322] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-03-19 01:13:51.326] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:16:26.467] [INFO] server - Express server listening on port 3000
+[2013-03-19 01:16:33.698] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:16:39.132] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:16:39.133] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:17:03.280] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 01:17:03.282] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:17:15.692] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:17:15.693] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 01:18:32.163] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/7e6177aa1d46447683b8941a8eb7ae19.jpg'
+[2013-03-19 01:18:32.164] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:24:06.811] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:24:06.813] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:31:13.775] [TRACE] server - Uploaded:  'Error: MultipartParser.end(): stream ended unexpectedly: state = PART_DATA\n    at MultipartParser.end (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/multipart_parser.js:306:12)\n    at IncomingMessage.IncomingForm.parse.fields (/Users/zmzsmnh/IdeaProjects/YupooWS/node_modules/express/node_modules/connect/node_modules/formidable/lib/incoming_form.js:102:30)\n    at IncomingMessage.EventEmitter.emit (events.js:93:17)\n    at IncomingMessage._emitEnd (http.js:366:10)\n    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)\n    at Socket.socket.ondata (http.js:1704:22)\n    at TCP.onread (net.js:404:27)'
+[2013-03-19 01:31:13.776] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:31:25.122] [INFO] server - Express server listening on port 3000
+[2013-03-19 01:31:33.614] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:31:33.615] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:31:54.593] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/9ba8401624904c829e1d26cef85d33b8.jpg'
+[2013-03-19 01:31:54.599] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:32:10.925] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:32:10.926] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 01:32:27.149] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/cc2147ac99494a73b92ab0544ad849f3.jpg'
+[2013-03-19 01:32:27.149] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:33:28.706] [INFO] server - Express server listening on port 3000
+[2013-03-19 01:33:39.477] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:33:39.483] [TRACE] server - Upload image to upyun:  '杭州地铁路线图.jpg'
+[2013-03-19 01:33:57.304] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/53d1b773680442898208f026129a3ab0.jpg'
+[2013-03-19 01:33:57.309] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:40:27.429] [INFO] server - Express server listening on port 3000
+[2013-03-19 01:40:40.204] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:40:40.206] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.222] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.233] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.244] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.255] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.266] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.278] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.287] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.292] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.298] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.304] [ERROR] server - Upload to upyun failed:  '管理功能模块用例图.jpg'
+[2013-03-19 01:40:40.310] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:42:25.143] [INFO] server - Express server listening on port 3000
+[2013-03-19 01:42:31.533] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:42:31.534] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:42:31.542] [ERROR] server - Upload to upyun error:  { [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+Error: connect ECONNREFUSED
+    at errnoException (net.js:770:11)
+    at Object.afterConnect [as oncomplete] (net.js:761:19)
+[2013-03-19 01:42:31.550] [TRACE] server - Save image to db successfully.
+[2013-03-19 01:43:16.540] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 01:43:16.541] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 01:43:16.788] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/e40b4f9bfd9542efb0ab709dd56fcf3f.jpg'
+[2013-03-19 01:43:16.789] [TRACE] server - Save image to db successfully.
