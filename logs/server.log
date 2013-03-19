@@ -1318,3 +1318,170 @@ Error: connect ECONNREFUSED
 [2013-03-19 01:43:16.541] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
 [2013-03-19 01:43:16.788] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/e40b4f9bfd9542efb0ab709dd56fcf3f.jpg'
 [2013-03-19 01:43:16.789] [TRACE] server - Save image to db successfully.
+[2013-03-19 02:40:06.336] [INFO] server - Express server listening on port 3000
+[2013-03-19 02:40:09.852] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 02:40:16.921] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 02:40:16.923] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2013-03-19 02:41:20.214] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2013-03-19 02:43:40.040] [INFO] server - Express server listening on port 3000
+[2013-03-19 02:43:49.939] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 02:43:49.942] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2013-03-19 02:44:28.993] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 02:44:28.995] [TRACE] server - Upload image to upyun:  'xppfur.png'
+[2013-03-19 02:45:57.762] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2013-03-19 02:47:03.947] [TRACE] server - Upload image to upyun:  'xppfur.jpg'
+[2013-03-19 02:49:44.353] [INFO] server - Express server listening on port 3000
+[2013-03-19 02:49:49.924] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 02:49:49.929] [TRACE] server - Upload image to upyun:  '杭州地铁路线图.jpg'
+[2013-03-19 02:51:08.317] [ERROR] server - Upload to upyun error:  { [Error: connect ETIMEDOUT] code: 'ETIMEDOUT', errno: 'ETIMEDOUT', syscall: 'connect' }
+Error: connect ETIMEDOUT
+    at errnoException (net.js:770:11)
+    at Object.afterConnect [as oncomplete] (net.js:761:19)
+[2013-03-19 02:51:08.322] [TRACE] server - Save image to db successfully.
+[2013-03-19 02:51:27.977] [INFO] server - Express server listening on port 3000
+[2013-03-19 02:52:39.040] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 02:52:39.042] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 02:53:37.971] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 02:53:37.973] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 02:53:44.237] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/44c44e9f5e6547f5bc30590ead0df119.jpg'
+[2013-03-19 02:53:44.241] [TRACE] server - Save image to db successfully.
+[2013-03-19 02:54:06.835] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 02:54:06.837] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 02:55:35.534] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 02:55:35.536] [TRACE] server - Upload image to upyun:  'xppfur.png'
+[2013-03-19 02:56:37.838] [TRACE] server - Upload image to upyun:  'xppfur.png'
+[2013-03-19 02:57:01.792] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 02:57:01.793] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 02:57:39.982] [TRACE] server - Upload image to upyun:  'xppfur.png'
+[2013-03-19 02:57:52.174] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-03-19 02:57:52.179] [TRACE] server - Save image to db successfully.
+[2013-03-19 02:58:03.342] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 02:58:42.172] [TRACE] server - Upload image to upyun:  'xppfur.png'
+[2013-03-19 02:59:04.814] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 02:59:21.514] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-03-19 02:59:21.516] [TRACE] server - Save image to db successfully.
+[2013-03-19 02:59:44.874] [TRACE] server - Upload image to upyun:  'xppfur.png'
+[2013-03-19 03:00:04.674] [INFO] server - Express server listening on port 3000
+[2013-03-19 03:00:15.767] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:00:15.768] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 03:00:15.770] [ERROR] server - Upload to upyun error:  [Error: Invalid protocol]
+Error: Invalid protocol
+    at Request.init (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/request/main.js:306:51)
+    at new Request (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/request/main.js:105:8)
+    at request (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/request/main.js:995:11)
+    at Function.request.post (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/request/main.js:1048:10)
+    at Object.exports.upload (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/util/upyunWS.js:27:23)
+    at EventEmitter.<anonymous> (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/bll/imageBLL.js:26:13)
+    at EventEmitter.emit (events.js:106:17)
+    at exports.upload (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/bll/imageBLL.js:92:28)
+    at fs.readFile (fs.js:176:14)
+    at Object.oncomplete (fs.js:297:15)
+[2013-03-19 03:00:15.779] [TRACE] server - Save image to db successfully.
+[2013-03-19 03:01:05.493] [INFO] server - Express server listening on port 3000
+[2013-03-19 03:01:20.900] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:01:20.945] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 03:01:21.129] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/5f230c7c33604073804e1c041e88dd4a.jpg'
+[2013-03-19 03:01:21.135] [TRACE] server - Save image to db successfully.
+[2013-03-19 03:01:42.208] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:01:42.209] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
+[2013-03-19 03:01:42.381] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/1bfdc64817674252aada2a9ad361462c.jpg'
+[2013-03-19 03:01:42.382] [TRACE] server - Save image to db successfully.
+[2013-03-19 03:02:15.844] [INFO] server - Express server listening on port 3000
+[2013-03-19 03:02:26.401] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:02:26.407] [TRACE] server - Upload image to upyun:  '杭州地铁路线图.jpg'
+[2013-03-19 03:03:34.601] [INFO] server - Express server listening on port 3000
+[2013-03-19 03:03:48.015] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:03:48.022] [TRACE] server - Upload image to upyun:  '杭州地铁路线图.jpg'
+[2013-03-19 03:03:49.358] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/993381f897f047fea49c84a829a0d0ce.jpg'
+[2013-03-19 03:03:49.364] [TRACE] server - Save image to db successfully.
+[2013-03-19 03:04:20.713] [INFO] server - Express server listening on port 3000
+[2013-03-19 03:04:27.043] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:04:27.045] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:05:14.129] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:05:14.130] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:06:21.766] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:07:24.483] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:08:31.691] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:14:20.198] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:14:20.242] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
+Error: socket hang up
+    at createHangUpError (http.js:1264:15)
+    at Socket.socketOnEnd [as onend] (http.js:1352:23)
+    at TCP.onread (net.js:419:26)
+[2013-03-19 03:14:20.282] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:14:20.343] [TRACE] server - Save image to db successfully.
+[2013-03-19 03:14:39.894] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:14:39.895] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:15:26.457] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:15:49.091] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:17:32.637] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:17:35.943] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 03:18:39.120] [INFO] server - Express server listening on port 3000
+[2013-03-19 03:18:47.810] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:18:47.812] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 03:20:42.166] [INFO] server - Express server listening on port 3000
+[2013-03-19 03:20:49.540] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:20:49.542] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 03:22:07.635] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 03:24:55.374] [INFO] server - Express server listening on port 3000
+[2013-03-19 03:25:06.582] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 03:25:06.587] [TRACE] server - Upload image to upyun:  '杭州地铁路线图.jpg'
+[2013-03-19 10:05:37.292] [INFO] server - Express server listening on port 3000
+[2013-03-19 10:05:46.292] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 10:05:46.296] [ERROR] server - Get images error:  [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/mongoskin/node_modules/mongodb/lib/mongodb/connection/server.js:482:24)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/mongoskin/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/mongoskin/node_modules/mongodb/lib/mongodb/connection/connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2013-03-19 10:05:50.724] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 10:05:50.726] [ERROR] server - Get images error:  [Error: failed to connect to [localhost:27017]]
+Error: failed to connect to [localhost:27017]
+    at Server.connect.connectionPool.on.server._serverState (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/mongoskin/node_modules/mongodb/lib/mongodb/connection/server.js:482:24)
+    at EventEmitter.emit (events.js:126:20)
+    at connection.on._self._poolState (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/mongoskin/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:96:15)
+    at EventEmitter.emit (events.js:99:17)
+    at Socket.errorHandler (/Users/zmzsmnh/IdeaProjects/Phoenix/node_modules/mongoskin/node_modules/mongodb/lib/mongodb/connection/connection.js:411:10)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+[2013-03-19 10:06:19.858] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 10:06:28.178] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 10:06:28.179] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 10:07:29.626] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 10:08:31.170] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 10:08:50.150] [INFO] server - Express server listening on port 3000
+[2013-03-19 10:08:57.933] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 10:08:57.934] [TRACE] server - Upload image to upyun:  'female.jpg'
+[2013-03-19 10:08:58.106] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/5c3042efb2b04d1c8a4a048fe813d8d7.jpg'
+[2013-03-19 10:08:58.111] [TRACE] server - Save image to db successfully.
+[2013-03-19 10:09:12.033] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 10:09:12.035] [TRACE] server - Upload image to upyun:  'xppfur.png'
+[2013-03-19 10:09:12.413] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/2349dc673981485fa070dd2cc651cd35.png'
+[2013-03-19 10:09:12.414] [TRACE] server - Save image to db successfully.
+[2013-03-19 10:10:24.752] [INFO] server - Express server listening on port 3000
+[2013-03-19 10:10:37.094] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 10:10:37.095] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 10:11:39.680] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 10:12:41.140] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 10:13:42.992] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 10:14:44.434] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 10:15:46.594] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 10:16:47.813] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 10:17:17.702] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
+[2013-03-19 10:17:17.702] [TRACE] server - Upload image to upyun:  'http://att3.citysbs.com/no/hangzhou/2013/03/18/13/133524_kamocudl_f99f8e597449c47356dec837cad19444.gif'
+[2013-03-19 10:17:49.684] [TRACE] server - Upload image to upyun:  'male.jpg'
+[2013-03-19 10:18:18.154] [TRACE] server - Upload image to upyun:  'http://att3.citysbs.com/no/hangzhou/2013/03/18/13/133524_kamocudl_f99f8e597449c47356dec837cad19444.gif'
+[2013-03-19 10:18:47.312] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
