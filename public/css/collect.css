@@ -1,3 +1,25 @@
 #container{margin: 0 auto;width: 460px;}
 #successBtn{display: none;}
+.box {
+    width: 220px;
+    height: 220px;
+
+    margin: 0px auto 0;
+}
+.pic-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    /*ie6、7不支持display:table-cell*/
+    *display: block;
+    _font-size: 192px;
++line-height: 220px; /*设置ie7中空文本节点行高为220px*/
+    _font-family: sans-serif;
+}
+.pic-wrap img {
+    border: none;
+    vertical-align: middle;/*由于ie中有默认高度的空文本节点*/
+}
 
