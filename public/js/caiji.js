@@ -1,3 +1,4 @@
+//javascript:void(function(d,a,c,b){a[c]&&typeof a[c].showValidImages=='function'?a[c].showValidImages():(b=a.createElement ('script'),b.id='phoenix_script',b.setAttribute('charset','utf-8'),b.src='http://localhost:3000/js/caiji.js',a.body.appendChild(b))}(window,document,'__phoenix'));
 var bodyCon=document.body.innerHTML;
 var pattern = /img[\w\W]*?src=['"]([\w\W]*?)['"]/gi;
 var needPattern = /.(jpg|gif|png|jpeg)$/i
