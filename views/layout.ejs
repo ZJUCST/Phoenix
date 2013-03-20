@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>halo</title>
+    <title>美兔网</title>
 
     <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-     <link href="css/layout.css" rel="stylesheet" type="text/css">
-     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.2" media="screen" />
+    <link href="css/layout.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.2" media="screen"/>
     <%-stylesheets%>
 
     <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
@@ -18,26 +18,33 @@
 
 </head>
 <body>
-<div class="topnav" >
-<div class="navbar">
-  <div class="navbar-inner">
-    <a class="brand" href="#">Halo</a>
-    <ul class="nav">
-      <li class="active"><a href="/">首页</a></li>
+<div class="topnav">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <a class="brand" href="#">美兔</a>
+
+            <div class="nav-collapse collapse">
+                <p class="navbar-text pull-right">
+                    <a href="javascript:void(function(d,a,c,b){a[c]&&typeof a[c].showValidImages=='function'?a[c].showValidImages():(b=a.createElement ('script'),b.id='huaban_script',b.setAttribute('charset','utf-8'),b.src='http://localhost:3000/js/caiji.js',a.body.appendChild(b))}(window,document,'__huaban')); return false;"
+                       class="">采集工具</a>
+
+                </p>
+                <ul class="nav">
+                    <li class="<% if(page=='index'){%>active<%}%>"><a href="/">首页</a></li>
 
 
-        <% if (!who) { %>
-        <li><a href="/login">注册</a></li>
-        <li><a href="/login">登陆</a></li>
-        <% }else{ %>
-        <li><a class="various fancybox.ajax"  href="/upload">上传</a></li>
-        <li><a href="#"><%=who.name %></a></li>
-        <li id="logout"><a href="#">退出</a></li>
-        <% } %>
+                    <% if (!who) { %>
+                    <li class="<% if(page=='loginAndregister'){%>active<%}%>"><a href="/login">登陆/注册</a></li>
 
-    </ul>
-  </div>
-</div>
+                    <% }else{ %>
+                    <li><a class="various fancybox.ajax" href="/upload">上传</a></li>
+                    <li><a href="#"><%=who.name %></a></li>
+                    <li id="logout"><a href="#">退出</a></li>
+                    <% } %>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 <%-body -%>
 <footer>

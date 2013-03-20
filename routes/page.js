@@ -13,17 +13,17 @@ exports.index = function(req, res) {
     SLOG.trace("Receive get a page of image request from: ", req.headers['user-agent']);
     var user = req.session.user;
     imagebll.getImages(req, res, function(images) {
-        res.render('index', { title: 'Hello World',who:user,images: images, pageNumber: (isNaN(req.query.p)?1:req.query.p)});
+        res.render('index', { title: 'Hello World',page:"index",who:user,images: images, pageNumber: (isNaN(req.query.p)?1:req.query.p)});
     });
 }
 exports.picUpload = function(req, res) {
     var user = req.session.user;
-    res.render('picUpload', { title: 'Hello World', who: user });
+    res.render('picUpload', { title: 'Hello World', who: user ,page:"picUpload"});
 }
 
 exports.loginAndregister = function(req, res) {
     var user = req.session.user;
-    res.render('loginAndregister', { title: 'Hello World',who:user });
+    res.render('loginAndregister', { title: 'Hello World',who:user ,page:"loginAndregister"});
 }
 
 exports.edit = function(req, res) {
@@ -59,7 +59,7 @@ exports.picShow = function(req, res) {
     var user = req.session.user;
     if(req.query.id) {
         imagebll.getImageById(req.query.id, res, function(image) {
-            res.render('picShow', { title: 'Hello World',who:user,image:image});
+            res.render('picShow', { title: 'Hello World',who:user,image:image,page:"picShow"});
         })
 
     } else {
