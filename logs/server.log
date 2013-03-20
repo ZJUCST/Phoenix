@@ -1,30 +1,327 @@
-[2013-03-19 10:27:24.219] [INFO] server - Express server listening on port 3000
-[2013-03-19 10:30:22.271] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
-[2013-03-19 10:30:22.272] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
-[2013-03-19 10:30:25.430] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/d314674e033d4c129fd78b9617501ffb.jpg'
-[2013-03-19 10:30:25.436] [TRACE] server - Save image to db successfully.
-[2013-03-19 10:30:56.775] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
-[2013-03-19 10:30:56.777] [TRACE] server - Upload image to upyun:  'female.jpg'
-[2013-03-19 10:31:21.226] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
-[2013-03-19 10:31:21.229] [TRACE] server - Upload image to upyun:  '管理功能模块用例图.jpg'
-[2013-03-19 10:31:24.005] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/415225a7391f4d72901d7a9e59a74399.jpg'
-[2013-03-19 10:31:24.006] [TRACE] server - Save image to db successfully.
-[2013-03-19 10:31:58.311] [TRACE] server - Upload image to upyun:  'female.jpg'
-[2013-03-19 10:37:10.644] [ERROR] server - Upload to upyun error:  { [Error: socket hang up] code: 'ECONNRESET' }
-Error: socket hang up
-    at createHangUpError (http.js:1264:15)
-    at Socket.socketOnEnd [as onend] (http.js:1352:23)
-    at TCP.onread (net.js:419:26)
-[2013-03-19 10:37:10.647] [TRACE] server - Save image to db successfully.
-[2013-03-19 10:37:51.365] [INFO] server - Express server listening on port 3000
-[2013-03-19 10:37:58.530] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
-[2013-03-19 10:37:58.531] [TRACE] server - Upload image to upyun:  'http://apps.bdimg.com/developer/static/03121532/developer/images/logo.png'
-[2013-03-19 10:38:29.289] [INFO] server - Express server listening on port 3000
-[2013-03-19 10:38:31.906] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
-[2013-03-19 10:38:31.907] [TRACE] server - Upload image to upyun:  'http://apps.bdimg.com/developer/static/03121532/developer/images/logo.png'
-[2013-03-19 10:38:35.425] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/2f670717d3234c70810c0c1c800c8487.png'
-[2013-03-19 10:38:35.429] [TRACE] server - Save image to db successfully.
-[2013-03-19 10:38:57.955] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.172 Safari/537.22'
-[2013-03-19 10:38:57.956] [TRACE] server - Upload image to upyun:  'http://apps.bdimg.com/developer/static/03121532/developer/images/logo.png'
-[2013-03-19 10:39:00.832] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/937f6d293c204b7fbe1fbc670132d619.png'
-[2013-03-19 10:39:00.833] [TRACE] server - Save image to db successfully.
+[2013-03-20 00:00:44.876] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:00:50.651] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:00:56.456] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:01:21.879] [INFO] server - Express server listening on port 3000
+[2013-03-20 00:01:52.397] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:03:34.133] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:03:57.908] [INFO] server - Express server listening on port 3000
+[2013-03-20 00:04:03.260] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:04:18.861] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:06:15.642] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:07:01.134] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:17:24.495] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:21:27.714] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:21:35.189] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:21:50.157] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:21:58.850] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:22:46.942] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:22:52.774] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:23:44.439] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:24:06.826] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:26:39.061] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:28:44.123] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:29:45.365] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:29:50.366] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:29:53.171] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:31:39.322] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:31:43.423] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:31:51.667] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:32:15.494] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:32:19.680] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:32:22.908] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:32:26.078] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:32:51.523] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:33:09.110] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:33:51.600] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:34:34.378] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:34:39.984] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:34:44.188] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:35:37.877] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:35:40.858] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:35:47.171] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:35:56.792] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:36:27.793] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:37:18.751] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:37:37.752] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:44:46.719] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:46:53.310] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:47:54.214] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:48:09.474] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:48:15.260] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:53:20.651] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:53:56.543] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:56:32.086] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:57:23.573] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 00:59:10.562] [INFO] server - Express server listening on port 3000
+[2013-03-20 00:59:14.775] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:01:14.125] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:01:21.627] [INFO] server - Express server listening on port 3000
+[2013-03-20 01:01:25.118] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:01:57.405] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:02:20.799] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:02:44.081] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:03:26.922] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:04:05.064] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:06:40.850] [INFO] server - Express server listening on port 3000
+[2013-03-20 01:06:44.697] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:06:52.749] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:06:56.215] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:07:02.293] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:07:16.073] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:08:51.399] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:09:52.733] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:11:06.928] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:11:06.928] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 01:11:06.951] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:11:06.952] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 01:12:03.394] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:12:03.395] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 01:12:03.419] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:12:03.419] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 01:12:17.084] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:12:30.242] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:12:30.310] [INFO] server - Login attempt failed: username not found.
+[2013-03-20 01:12:37.878] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:12:37.880] [INFO] server - Login attempt failed: username not found.
+[2013-03-20 01:12:51.480] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:12:51.481] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 01:12:51.504] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 01:12:51.505] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 10:20:48.561] [INFO] server - Express server listening on port 3000
+[2013-03-20 10:21:32.081] [INFO] server - Express server listening on port 3000
+[2013-03-20 10:21:46.615] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:22:26.716] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:22:26.739] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:22:26.739] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 10:22:27.026] [TRACE] server - Register successful:  'rainwave'
+[2013-03-20 10:27:00.523] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:27:00.527] [ERROR] server - null
+[2013-03-20 10:27:00.548] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:27:00.548] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 10:28:39.240] [INFO] server - Express server listening on port 3000
+[2013-03-20 10:28:59.280] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:28:59.282] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 10:29:40.355] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:32:59.095] [ERROR] server - null
+[2013-03-20 10:33:25.996] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:33:40.277] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:33:40.278] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 10:33:40.286] [ERROR] server - null
+[2013-03-20 10:34:06.389] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:34:10.178] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:34:10.180] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 10:34:10.183] [ERROR] server - null
+[2013-03-20 10:36:23.351] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:36:54.349] [ERROR] server - null
+[2013-03-20 10:38:26.339] [INFO] server - Express server listening on port 3000
+[2013-03-20 10:38:36.391] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:38:36.414] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:38:36.414] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 10:38:36.424] [ERROR] server - null
+[2013-03-20 10:39:56.638] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:39:56.642] [ERROR] server - null
+[2013-03-20 10:39:56.656] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:39:56.656] [INFO] server - Login attempt failed: password cannot be empty.
+[2013-03-20 10:41:41.171] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:41:41.174] [ERROR] server - null
+[2013-03-20 10:42:11.395] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:42:11.506] [TRACE] server - Register successful:  'rainwave2'
+[2013-03-20 10:43:20.678] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:43:32.961] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:46:54.727] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:54:04.543] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:54:05.443] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:54:06.484] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:54:07.560] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:54:08.695] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:54:09.781] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:54:11.113] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:54:11.949] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:54:12.983] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:55:39.676] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:55:40.492] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:55:41.343] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:55:41.962] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:55:42.818] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:56:37.797] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:56:38.517] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:56:39.462] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:56:40.196] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:08.535] [INFO] server - Express server listening on port 3000
+[2013-03-20 10:58:13.314] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:13.923] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:14.526] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:15.117] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:15.769] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:16.314] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:16.975] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:17.548] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:18.130] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:18.728] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:19.346] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:19.864] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:20.516] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:21.113] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:22.129] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:22.632] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:23.166] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:23.838] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 10:58:24.551] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:02.086] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:02.679] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:03.390] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:03.957] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:04.691] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:05.276] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:05.971] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:06.658] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:07.382] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:08.076] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:08.792] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:09.444] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:10.176] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:10.736] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:11.430] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:12.149] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:51.290] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:51.992] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:52.735] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:00:53.375] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:01:09.614] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:01:28.428] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:01:48.299] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:02:10.584] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:02:10.591] [ERROR] server - null
+[2013-03-20 11:02:28.409] [TRACE] server - Receive register request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:02:28.530] [TRACE] server - Register successful:  'rainwave3'
+[2013-03-20 11:02:28.545] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:02:32.493] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:02:53.553] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:02:53.674] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:02:59.567] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:04:25.412] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:04:25.511] [INFO] server - Login attempt failed: wrong password.
+[2013-03-20 11:04:32.709] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:04:32.812] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:05:20.546] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:06:16.151] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:11:10.374] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:40:41.582] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:40:47.440] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:40:50.813] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 11:48:08.784] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:04:29.639] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:04:39.194] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:09:05.390] [ERROR] server - Request for /loginfailed:
+[2013-03-20 12:09:05.391] [ERROR] server - [SyntaxError: Unexpected string]
+SyntaxError: Unexpected string
+    at Object.Function (unknown source)
+    at exports.compile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:234:12)
+    at Object.exports.render (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:273:10)
+    at Object.exports.renderFile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:303:22)
+    at module.exports (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:85:7)
+    at module.exports (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:131:7)
+    at Object.exports.renderFile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:303:5)
+    at View.module.exports [as engine] (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:85:7)
+    at View.render (D:\Projects\Phoenix\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\Projects\Phoenix\node_modules\express\lib\application.js:501:10)
+[2013-03-20 12:10:27.322] [ERROR] server - Request for /loginfailed:
+[2013-03-20 12:10:27.323] [ERROR] server - [SyntaxError: Unexpected token %]
+SyntaxError: Unexpected token %
+    at Object.Function (unknown source)
+    at exports.compile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:234:12)
+    at Object.exports.render (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:273:10)
+    at Object.exports.renderFile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:303:22)
+    at module.exports (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:85:7)
+    at module.exports (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:131:7)
+    at Object.exports.renderFile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:303:5)
+    at View.module.exports [as engine] (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:85:7)
+    at View.render (D:\Projects\Phoenix\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\Projects\Phoenix\node_modules\express\lib\application.js:501:10)
+[2013-03-20 12:10:28.269] [ERROR] server - Request for /loginfailed:
+[2013-03-20 12:10:28.270] [ERROR] server - [SyntaxError: Unexpected token %]
+SyntaxError: Unexpected token %
+    at Object.Function (unknown source)
+    at exports.compile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:234:12)
+    at Object.exports.render (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:273:10)
+    at Object.exports.renderFile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:303:22)
+    at module.exports (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:85:7)
+    at module.exports (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:131:7)
+    at Object.exports.renderFile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:303:5)
+    at View.module.exports [as engine] (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:85:7)
+    at View.render (D:\Projects\Phoenix\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\Projects\Phoenix\node_modules\express\lib\application.js:501:10)
+[2013-03-20 12:10:28.680] [ERROR] server - Request for /loginfailed:
+[2013-03-20 12:10:28.681] [ERROR] server - [SyntaxError: Unexpected token %]
+SyntaxError: Unexpected token %
+    at Object.Function (unknown source)
+    at exports.compile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:234:12)
+    at Object.exports.render (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:273:10)
+    at Object.exports.renderFile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:303:22)
+    at module.exports (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:85:7)
+    at module.exports (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:131:7)
+    at Object.exports.renderFile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:303:5)
+    at View.module.exports [as engine] (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:85:7)
+    at View.render (D:\Projects\Phoenix\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\Projects\Phoenix\node_modules\express\lib\application.js:501:10)
+[2013-03-20 12:10:40.062] [ERROR] server - Request for /loginfailed:
+[2013-03-20 12:10:40.063] [ERROR] server - { [ReferenceError: D:\Projects\Phoenix\views\layout.ejs:26
+    24|     <a class="brand" href="#">Halo</a>
+    25|     <ul class="nav">
+ >> 26|       <li class="<% if(page=='index'){%>active<%}%>"><a href="/">首页</a></li>
+    27| 
+    28| 
+    29|         <% if (!who) { %>
+
+page is not defined] path: 'D:\\Projects\\Phoenix\\views\\layout.ejs' }
+ReferenceError: D:\Projects\Phoenix\views\layout.ejs:26
+    24|     <a class="brand" href="#">Halo</a>
+    25|     <ul class="nav">
+ >> 26|       <li class="<% if(page=='index'){%>active<%}%>"><a href="/">首页</a></li>
+    27| 
+    28| 
+    29|         <% if (!who) { %>
+
+page is not defined
+    at eval (eval at <anonymous> (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:234:12))
+    at exports.compile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:239:15)
+    at Object.exports.render (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:277:13)
+    at Object.exports.renderFile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:303:22)
+    at module.exports (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:85:7)
+    at module.exports (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:131:7)
+    at Object.exports.renderFile (D:\Projects\Phoenix\node_modules\ejs\lib\ejs.js:303:5)
+    at View.module.exports [as engine] (D:\Projects\Phoenix\node_modules\ejs-locals\index.js:85:7)
+    at View.render (D:\Projects\Phoenix\node_modules\express\lib\view.js:75:8)
+    at Function.app.render (D:\Projects\Phoenix\node_modules\express\lib\application.js:501:10)
+[2013-03-20 12:11:00.939] [INFO] server - Express server listening on port 3000
+[2013-03-20 12:20:27.983] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:20:28.163] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:21:31.815] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:22:04.194] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:22:06.982] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:26:43.646] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:29:19.773] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:29:46.871] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:30:43.599] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:31:30.746] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:35:40.211] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:36:12.856] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:36:25.294] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:36:30.142] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:36:33.462] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:37:01.472] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:37:22.663] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:42:55.019] [TRACE] server - Receive login request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:42:55.131] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:43:22.586] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 12:43:38.575] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 13:08:31.728] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 13:10:02.544] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 13:18:38.155] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 13:26:20.979] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 13:26:41.073] [TRACE] server - Receive upload request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 13:26:41.074] [TRACE] server - Upload image to upyun:  'http://peacock.b0.upaiyun.com/3ef7163152364a259384d62850f07abc.jpg'
+[2013-03-20 13:26:45.134] [TRACE] server - Uploaded:  'http://peacock.b0.upaiyun.com/f1a1adf0e2424e8bb4fff91b24027ac3.jpg'
+[2013-03-20 13:26:45.136] [TRACE] server - Save image to db successfully.
+[2013-03-20 13:26:47.744] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
+[2013-03-20 13:44:44.718] [TRACE] server - Receive get a page of image request from:  'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1359.3 Safari/537.21'
