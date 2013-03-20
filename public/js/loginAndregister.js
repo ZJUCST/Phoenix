@@ -39,7 +39,7 @@ $(document).ready(function(){
            });
     $("#create").click(function(){
         $.ajax({
-            url: "/login",
+            url: "/reg",
             type: "POST",
             data:{username:$("#username").val(),email:$("#email").val()}
            } ) .done(function( xhr, msg ) {
