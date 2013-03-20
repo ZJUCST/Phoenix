@@ -26,7 +26,7 @@ for(k in list){
     if(imgMargin<0)imgMargin=0;
     alertHtml+="<div style='float:left;height:200px;width:200px;background-color: #fff;border: solid #e7e7e7;border-width: 0 1px 1px 0;opacity: 1;'><img src='"+picSrc+"' onMouseOver='showSelector(this)'  style='margin-top:"+imgMargin+"px;width:auto !important;height:auto !important;max-height:200px;max-width:200px;'/></div>";
 }
-alertHtml+="<img id='cjbutton' src='/img/cjbutton.gif' style='display:none;position:absolute;z-index=5;' onclick='caiji()'/>";
+alertHtml+="<img id='cjbutton' src='http://meitu.cloudfoundry.com/img/cjbutton.gif' style='display:none;position:absolute;z-index=5;' onclick='caiji()'/>";
 alertHtml+="<input type='hidden' id='imgUri' />";
 alertHtml+="</div>";
 
