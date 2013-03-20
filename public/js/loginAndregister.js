@@ -28,8 +28,7 @@ $(document).ready(function(){
             data:{username:$("#ti_loginusername").val(),password:$("#ti_loginpassword").val()}
 
         }).done(function( xhr, msg ) {
-                alert(xhr);
-                alert( "Data Saved: " + msg );
+                location.href = "/";
             })
             .fail(function(xhr) {
                var message=JSON.parse(xhr.responseText).errorCode;
@@ -41,10 +40,9 @@ $(document).ready(function(){
         $.ajax({
             url: "/reg",
             type: "POST",
-            data:{username:$("#username").val(),email:$("#email").val()}
+            data:{username:$("#username").val(),email:$("#email").val(),password:$("#input1").val()}
            } ) .done(function( xhr, msg ) {
-                alert(xhr);
-                alert( "Data Saved: " + msg );
+                location.href = "/";
             })
             .fail(function(xhr) {
                 var message=JSON.parse(xhr.responseText).errorCode;

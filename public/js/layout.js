@@ -10,4 +10,13 @@ $(document).ready(function() {
         openEffect	: 'none',
         closeEffect	: 'none'
     });
+    $("#logout").click(function(){
+        $.ajax({
+            url:"/logout",
+            type:"POST"
+        }).done(function( xhr, msg ) {
+                location.href = "/";
+            });
+    })
+
 });
