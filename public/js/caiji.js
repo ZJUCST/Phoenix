@@ -36,7 +36,7 @@ sAlert("selectContent",alertHtml);
 var caiji = function(){
     var imgUri=URLencode(document.getElementById("imgUri").value);
     var imgFrom = URLencode(document.URL);
-    window.open (('/collect?uri='+imgUri+'&from='+imgFrom),'newwindow','height=400,width=600,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
+    window.open (('http://meitu.cloudfoundry.com/collect?uri='+imgUri+'&from='+imgFrom),'newwindow','height=400,width=600,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
 
 }
 
