@@ -54,6 +54,7 @@ app.get('/picShow', page.picShow);
  */
 app.post('/login',user.login);
 app.post('/reg',user.reg);
+app.post('/logout',user.logout);
 app.post('/post/image', image.upload);
 app.post('/collect/image', image.collect);
 app.get('/get/image', image.getPage);

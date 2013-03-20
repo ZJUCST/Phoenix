@@ -97,6 +97,11 @@ exports.reg = function (req, res) {
     }
 };
 
+exports.logout = function(req, res) {
+    delete req.session.user;
+    res.send();
+}
+
 /**
  * pbkdf2 password hasher
  * @param pwd - plain text of password
