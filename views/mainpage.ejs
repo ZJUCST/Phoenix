@@ -1,10 +1,35 @@
 <% layout('layout') %>
+<% script('js/jquery.masonry.js') -%>
 <% script('js/mainpage.js') -%>
 <% stylesheet('css/mainpage.css') -%>
 
-<div id="container">
-    <div class="item">...</div>
-    <div class="item">...</div>
-    <div class="item">...</div>
-    ...
+<div id="container" class="demo clearfix">
+    <div class="item_list infinite_scroll masonry" style="position: relative;">
+        <% images.forEach(function(image){ %>
+        <div class="item masonry_brick masonry-brick" style=" box-shadow: rgba(34, 25, 25, 0.2) 0px 1px 3px;">
+            <div class="item_t">
+                <div class="img">
+                    <a href="picShow?id=<%=image._id%>"><img width="210" alt="#" src="<%=image.url %>"></a>
+                </div>
+                <div class="title"><span><%=image.description%></span></div>
+            </div>
+        </div><!--item end-->
+        <% }) %>
+     </div>
+
+    <div id="page" class="page" >
+        <div class="page_num">
+            <% if(images.length>0){%>
+            <% if(pageNumber-1>0){%> <a href="/?p=<%=pageNumber-1%>&pdis=1&start_id=<%=images[0]._id%>"><span  class="prev">&nbsp; </span> </a> <%}%>
+            <% if(pageNumber-2>0){%><a href="/?p=<%=pageNumber-2%>&pdis=2&start_id=<%=images[0]._id%>">&nbsp;<%=(pageNumber-2)%>&nbsp;</a> <%}%>
+            <% if(pageNumber-1>0){%><a href="/?p=<%=pageNumber-1%>&pdis=1&start_id=<%=images[0]._id%>">&nbsp;<%=(pageNumber-1)%>&nbsp;</a> <%}%>
+            <a href="" class="current">&nbsp;<%=pageNumber%>&nbsp;</a>
+            <% if(!images.isEnd){%>
+                <a href="/?p=<%=pageNumber-0+1%>&pdis=1&end_id=<%=images[images.length-1]._id%>">&nbsp;<%=(pageNumber-0+1)%>&nbsp;</a>
+                <a href="/?p=<%=pageNumber-0+2%>&pdis=2&end_id=<%=images[images.length-1]._id%>">&nbsp;<%=(pageNumber-0+2)%>&nbsp;</a>
+                <a href="/?p=<%=pageNumber-0+1%>&pdis=1&end_id=<%=images[images.length-1]._id%>" class="next">&nbsp;</a>
+            <%}%>
+            <%}%>
+        </div>
+    </div>
 </div>

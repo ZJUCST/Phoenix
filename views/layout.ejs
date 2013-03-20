@@ -25,13 +25,14 @@
     <ul class="nav">
       <li class="active"><a href="/">首页</a></li>
 
-      <li><a class="various fancybox.ajax"  href="/upload">上传</a></li>
-        <% if (!who.name) { %>
-        <li><a href="#">注册</a></li>
+
+        <% if (!who) { %>
+        <li><a href="/login">注册</a></li>
         <li><a href="/login">登陆</a></li>
         <% }else{ %>
-        <li><img src='<%=who.pic%>' class='userPhoto' /></li>
+        <li><a class="various fancybox.ajax"  href="/upload">上传</a></li>
         <li><a href="#"><%=who.name %></a></li>
+
         <% } %>
 
     </ul>
