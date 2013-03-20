@@ -32,6 +32,11 @@ app.configure(function(){
   app.use(express.session());
   app.use(app.router);
   app.use(express.static(path.join(__dirname, 'public')));
+    app.use(function(err, req, res, next) {
+        SLOG.error("Request for " + req.path + "failed:");
+        SLOG.error(err);
+        res.render('error', { errorContent:"服务器开小差...",redirectUrl: "/"});
+    });
 });
 
 app.configure('development', function(){
