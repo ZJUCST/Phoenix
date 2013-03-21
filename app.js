@@ -64,6 +64,7 @@ app.post('/post/image', image.upload);
 app.post('/collect/image', image.collect);
 app.get('/get/image', image.getPage);
 app.get('/image', image.getImageById);
+app.get('/delete/image', image.removeImage);
 
 
 http.createServer(app).listen(app.get('port'), function(){

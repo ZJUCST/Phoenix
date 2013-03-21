@@ -46,3 +46,15 @@ exports.getImageById = function(req, res) {
         res.send('ID parameter is required.', 403);
     }
 }
+
+exports.removeImage = function(req, res) {
+    SLOG.trace("Receive a get image by id request from: ", req.headers['user-agent']);
+
+    if(req.session.user) {
+        imagebll.removeImage(req, res, function(err) {
+            res.redirect('/');
+        });
+    } else {
+        res.send('Not Authorized', 403);
+    }
+}
