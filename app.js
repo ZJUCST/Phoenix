@@ -26,7 +26,7 @@ app.configure(function(){
   app.set('view engine', 'ejs');
   app.use(express.favicon());
   app.use(express.logger('dev'));
-  app.use(express.bodyParser({ keepExtensions: true}));
+  app.use(express.bodyParser({ keepExtensions: true, uploadDir:'./uploads'}));
   app.use(express.methodOverride());
   app.use(express.cookieParser('your secret here'));
   app.use(express.session());
@@ -61,7 +61,7 @@ app.post('/login',user.login);
 app.post('/reg',user.reg);
 app.post('/logout',user.logout);
 app.post('/post/image', image.upload);
-app.post('/collect/image', image.collect);
+app.post('/image/collect', image.collect);
 app.get('/get/image', image.getPage);
 app.get('/image', image.getImageById);
 app.get('/delete/image', image.removeImage);

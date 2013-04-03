@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 $(function(){$("#submitBtn").click(function(){
-    jQuery.post("/collect/image"
+    jQuery.post("/image/collect"
         ,{tags:$("#tags").val(),description:$("#description").val(),uri:$("#uri").val(),from:$("#from").val()}
         , function(data){$("#successBtn").show();setTimeout(function(){window.close();}, 3000);}
     );

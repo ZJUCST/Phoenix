@@ -12,6 +12,10 @@ var errDef = require('./../conf/errorCode.def.json');
 exports.index = function(req, res) {
     SLOG.trace("Receive get a page of image request from: ", req.headers['user-agent']);
     var user = req.session.user;
+    if(req.query.p && req.query.p == 1) {
+        res.redirect("/");
+        return;
+    }
     imagebll.getImages(req, res, function(images) {
         res.render('index', { title: 'Hello World',page:"index",who:user,images: images, pageNumber: (isNaN(req.query.p)?1:req.query.p)});
     });
